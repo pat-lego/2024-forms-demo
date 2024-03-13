@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/entforms" mode="merge"/>
+    <filter root="/content/entforms" mode="merge"/>
+    <filter root="/content/dam/entforms" mode="merge">
+        <exclude pattern="/content/dam/entforms(/.*)?"/>
+        <include pattern="/content/dam/entforms/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/entforms/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/entforms" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/entforms" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/entforms" mode="merge"/>
+    <filter root="/content/dam/entforms/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/entforms/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/entforms/wknd_logo.png" mode="merge"/>
+    <filter root="/content/dam/entforms/af_model_sample.json" mode="merge"/>
+
+    <filter root="/content/dam/formsanddocuments/we" mode="merge"/>
+    <filter root="/content/forms/af/we" mode="merge"/>
+    <filter root="/content/wknd/language-masters/en/contact-us" mode="merge"/>
+</workspaceFilter>

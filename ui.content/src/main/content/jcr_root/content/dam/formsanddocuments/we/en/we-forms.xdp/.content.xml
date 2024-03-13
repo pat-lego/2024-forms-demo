@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="eba59fc0-77fa-443a-9463-7aab44b9af6a">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2024-03-13T19:20:00.381Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/xfaforms/render"
+        type="xfaForm"
+        xfaForm="{Long}1">
+        <metadata
+            dam:extracted="{Date}2024-03-13T19:19:56.820Z"
+            dam:sha1="151ca864ed0f55dba5ccff00fffc5e1d1e346e51"
+            dam:size="{Long}336468"
+            dc:format="application/vnd.adobe.xdp+xml"
+            fd:aemWorkflowId="\{&quot;convert_pdf&quot;:&quot;/forms/workflow/db030496-2611-4739-b810-53313974d41e&quot;}"
+            fd:afPath="/content/forms/af/we/en/output/we-forms"
+            fd:cloudConfig="/conf/entforms/settings/cloudconfigs/flamingo/forms-conversion-service"
+            fd:conversionStatus="Converted"
+            fd:featureCapabilities="\{&quot;preserve_layout&quot;:false,&quot;generate_none_bindings&quot;:false,&quot;createLogicalSections&quot;:true,&quot;createAutoFragments&quot;:true,&quot;extractFragmentsEnabled&quot;:false,&quot;usingExistingFragments&quot;:false,&quot;isDorUsed&quot;:true,&quot;isAutoDorUsed&quot;:false,&quot;semanticDictionaryUsed&quot;:false}"
+            fd:fieldsPresentInForm="false"
+            fd:formtype="xfa"
+            fd:pollingUnit="1"
+            fd:schemaLoc="/content/dam/formsanddocuments/we/en/output/schema"
+            fd:templatePath="/conf/entforms/settings/wcm/templates/blank-af"
+            fd:themePath="/content/dam/formsanddocuments-themes/entforms/healthcare"
+            jcr:language="en"
+            jcr:lastModified="{Date}2024-03-13T13:36:20.588Z"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            allowedRenderFormat="BOTH"
+            availableInMobileApp="false"
+            name="we-forms.xdp"
+            profile="/libs/xfaforms/profiles/default"/>
+    </jcr:content>
+</jcr:root>
