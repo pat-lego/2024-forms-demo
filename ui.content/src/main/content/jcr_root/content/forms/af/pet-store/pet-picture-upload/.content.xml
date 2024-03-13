@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2024-03-13T21:52:50.642Z"
+        cq:lastModified="{Date}2024-03-13T22:44:04.788Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/entforms/settings/wcm/templates/basic-af"
         jcr:language="en"
@@ -118,14 +118,14 @@
                             nonNavigable="{Boolean}true"/>
                         <items jcr:primaryType="nt:unstructured">
                             <id
-                                jcr:lastModified="{Date}2024-03-13T21:20:31.621Z"
+                                jcr:lastModified="{Date}2024-03-13T22:44:04.778Z"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Id"
                                 sling:resourceType="fd/af/components/guidenumericbox"
                                 bindRef="/Pet/id"
                                 dataType="integer"
-                                enabled="{Boolean}false"
+                                enabled="{Boolean}true"
                                 guideNodeClass="guideNumericBox"
                                 name="id_1"
                                 textIsRich="[true,true]">
