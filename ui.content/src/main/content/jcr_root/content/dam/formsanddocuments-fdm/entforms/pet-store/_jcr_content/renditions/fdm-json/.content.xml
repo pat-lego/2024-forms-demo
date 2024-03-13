@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fdm="http://www.adobe.com/aemfd/fdm/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fdm="http://www.adobe.com/aemfd/fdm/1.0"
     jcr:primaryType="sling:Folder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
@@ -19,15 +19,64 @@
                 id="Pet"
                 name="Pet"
                 required="[name,photoUrls]">
-                <links jcr:primaryType="nt:unstructured"/>
+                <links jcr:primaryType="nt:unstructured">
+                    <post_pet_1710369733854
+                        fdm:source="source1"
+                        jcr:primaryType="nt:unstructured"
+                        description="Add a new pet to the store"
+                        genericOperation="{Boolean}false"
+                        href="petstore.swagger.io/v2"
+                        id="POST /pet_1710369733854"
+                        method="POST"
+                        name="POST /pet"
+                        rel="self">
+                        <fdm:data jcr:primaryType="nt:unstructured"/>
+                        <schema
+                            fdm:bindRef="schema"
+                            fdm:computed="{Boolean}false"
+                            fdm:freeForm="{Boolean}false"
+                            fdm:metadataKey="{Boolean}false"
+                            fdm:nullable="{Boolean}true"
+                            fdm:primaryKey="{Boolean}false"
+                            fdm:protected="{Boolean}false"
+                            fdm:readOnly="{Boolean}false"
+                            fdm:required="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            description="operation input description"
+                            name="schema"
+                            type="object">
+                            <properties jcr:primaryType="nt:unstructured">
+                                <Pet
+                                    fdm:bindRef="Pet"
+                                    fdm:computed="{Boolean}false"
+                                    fdm:freeForm="{Boolean}false"
+                                    fdm:in="body"
+                                    fdm:metadataKey="{Boolean}false"
+                                    fdm:nullable="{Boolean}true"
+                                    fdm:primaryKey="{Boolean}false"
+                                    fdm:protected="{Boolean}false"
+                                    fdm:readOnly="{Boolean}false"
+                                    fdm:required="{Boolean}true"
+                                    jcr:primaryType="nt:unstructured"
+                                    _x0024_ref="Pet"
+                                    description="Pet object that needs to be added to the store"
+                                    name="Pet"
+                                    title="Pet"
+                                    type="object"/>
+                            </properties>
+                        </schema>
+                    </post_pet_1710369733854>
+                </links>
                 <properties jcr:primaryType="nt:unstructured">
                     <id
                         fdm:bindRef="id"
                         fdm:computed="{Boolean}false"
+                        fdm:freeForm="{Boolean}false"
                         fdm:metadataKey="{Boolean}false"
                         fdm:nullable="{Boolean}true"
                         fdm:primaryKey="{Boolean}false"
                         fdm:protected="{Boolean}false"
+                        fdm:readOnly="{Boolean}false"
                         fdm:required="{Boolean}false"
                         jcr:primaryType="nt:unstructured"
                         format="int64"
@@ -37,10 +86,12 @@
                     <name
                         fdm:bindRef="name"
                         fdm:computed="{Boolean}false"
+                        fdm:freeForm="{Boolean}false"
                         fdm:metadataKey="{Boolean}false"
                         fdm:nullable="{Boolean}true"
                         fdm:primaryKey="{Boolean}false"
                         fdm:protected="{Boolean}false"
+                        fdm:readOnly="{Boolean}false"
                         fdm:required="{Boolean}true"
                         jcr:primaryType="nt:unstructured"
                         name="name"
@@ -49,10 +100,12 @@
                     <photoUrls
                         fdm:bindRef="photoUrls"
                         fdm:computed="{Boolean}false"
+                        fdm:freeForm="{Boolean}false"
                         fdm:metadataKey="{Boolean}false"
                         fdm:nullable="{Boolean}true"
                         fdm:primaryKey="{Boolean}false"
                         fdm:protected="{Boolean}false"
+                        fdm:readOnly="{Boolean}false"
                         fdm:required="{Boolean}true"
                         jcr:primaryType="nt:unstructured"
                         name="photoUrls"
@@ -65,10 +118,12 @@
                     <status
                         fdm:bindRef="status"
                         fdm:computed="{Boolean}false"
+                        fdm:freeForm="{Boolean}false"
                         fdm:metadataKey="{Boolean}false"
                         fdm:nullable="{Boolean}true"
                         fdm:primaryKey="{Boolean}false"
                         fdm:protected="{Boolean}false"
+                        fdm:readOnly="{Boolean}false"
                         fdm:required="{Boolean}false"
                         jcr:primaryType="nt:unstructured"
                         enum="[available,pending,sold]"
@@ -92,10 +147,12 @@
                 <schema
                     fdm:bindRef="schema"
                     fdm:computed="{Boolean}false"
+                    fdm:freeForm="{Boolean}false"
                     fdm:metadataKey="{Boolean}false"
                     fdm:nullable="{Boolean}true"
                     fdm:primaryKey="{Boolean}false"
                     fdm:protected="{Boolean}false"
+                    fdm:readOnly="{Boolean}false"
                     fdm:required="{Boolean}false"
                     jcr:primaryType="nt:unstructured"
                     description="operation input description"
@@ -105,11 +162,13 @@
                         <petId
                             fdm:bindRef="petId"
                             fdm:computed="{Boolean}false"
+                            fdm:freeForm="{Boolean}false"
                             fdm:in="path"
                             fdm:metadataKey="{Boolean}false"
                             fdm:nullable="{Boolean}true"
                             fdm:primaryKey="{Boolean}false"
                             fdm:protected="{Boolean}false"
+                            fdm:readOnly="{Boolean}false"
                             fdm:required="{Boolean}true"
                             jcr:primaryType="nt:unstructured"
                             description="ID of pet to return"
@@ -121,10 +180,12 @@
                 <targetSchema
                     fdm:bindRef="Pet"
                     fdm:computed="{Boolean}false"
+                    fdm:freeForm="{Boolean}false"
                     fdm:metadataKey="{Boolean}false"
                     fdm:nullable="{Boolean}true"
                     fdm:primaryKey="{Boolean}false"
                     fdm:protected="{Boolean}false"
+                    fdm:readOnly="{Boolean}false"
                     fdm:required="{Boolean}false"
                     jcr:primaryType="nt:unstructured"
                     _x0024_ref="Pet"
@@ -144,10 +205,12 @@
                 <schema
                     fdm:bindRef="schema"
                     fdm:computed="{Boolean}false"
+                    fdm:freeForm="{Boolean}false"
                     fdm:metadataKey="{Boolean}false"
                     fdm:nullable="{Boolean}true"
                     fdm:primaryKey="{Boolean}false"
                     fdm:protected="{Boolean}false"
+                    fdm:readOnly="{Boolean}false"
                     fdm:required="{Boolean}false"
                     jcr:primaryType="nt:unstructured"
                     description="operation input description"
@@ -157,11 +220,13 @@
                         <Pet
                             fdm:bindRef="Pet"
                             fdm:computed="{Boolean}false"
+                            fdm:freeForm="{Boolean}false"
                             fdm:in="body"
                             fdm:metadataKey="{Boolean}false"
                             fdm:nullable="{Boolean}true"
                             fdm:primaryKey="{Boolean}false"
                             fdm:protected="{Boolean}false"
+                            fdm:readOnly="{Boolean}false"
                             fdm:required="{Boolean}true"
                             jcr:primaryType="nt:unstructured"
                             _x0024_ref="Pet"
@@ -178,6 +243,7 @@
                 fdm:computed="{Boolean}false"
                 fdm:nullable="{Boolean}true"
                 fdm:protected="{Boolean}false"
+                fdm:readOnly="{Boolean}false"
                 fdm:required="{Boolean}false"
                 jcr:primaryType="nt:unstructured"
                 _x0024_ref="Pet"
