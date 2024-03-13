@@ -16,6 +16,10 @@
     <filter root="/content/dam/entforms/af_model_sample.json" mode="merge"/>
 
     <filter root="/content/dam/formsanddocuments/we" mode="merge"/>
+    
     <filter root="/content/forms/af/we" mode="merge"/>
     <filter root="/content/wknd/language-masters/en/contact-us" mode="merge"/>
+    
+    <filter root="/content/dam/formsanddocuments/pet-store" mode="merge" />
+    <filter root="/content/forms/af/pet-store" />
 </workspaceFilter>

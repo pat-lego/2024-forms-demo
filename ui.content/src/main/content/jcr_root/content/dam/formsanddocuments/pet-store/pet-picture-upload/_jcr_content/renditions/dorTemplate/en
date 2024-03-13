@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-02-10T09:56:20Z" uuid="7038531f-2845-41b5-b36d-0a1a10c4122a">
+   <template xmlns="http://www.xfa.org/schema/xfa-template/3.6/">
+      <?formServer defaultPDFRenderFormat acrobat11.0dynamic?>
+      <?templateDesigner DefaultPreviewDynamic 1?>
+      <?templateDesigner DefaultRunAt client?>
+      <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+      <?templateDesigner WidowOrphanControl 0?>
+      <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+      <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+      <?templateDesigner DefaultLanguage JavaScript?>
+      <?acrobat JavaScript strictScoping?>
+      <?templateDesigner SavePDFWithLog 0?>
+      <?layout containedExclGroup 1?>
+      <?templateDesigner SaveTaggedPDF 0?>
+      <?templateDesigner SavePDFWithEmbeddedFonts 0?>
+      <?templateDesigner Zoom 99?>
+      <?templateDesigner FormTargetVersion 36?>
+      <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+      <?templateDesigner XDPPreviewFormat 20?>
+      <subform layout="tb" locale="en_US" name="data">
+         <pageSet>
+            <pageArea name="AF_MASTERPAGE" id="Page1">
+               <contentArea x="12.7mm" y="31.75mm" w="184.15mm" h="230.886mm" name="ContentArea"/>
+               <medium stock="a4" short="210mm" long="297mm"/>
+               <area x="12.7mm" y="10.16mm" name="Header">
+                  <draw name="AF_LOGO_IMAGE" h="15.24mm" minW="80.604mm">
+                     <ui>
+                        <imageEdit/>
+                     </ui>
+                     <value>
+                        <image href="" contentType="image/png" transferEncoding="base64">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</image>
+                     </value>
+                  </draw>
+                  <subform x="103.545mm" name="HeaderInfo" layout="tb" w="80.604mm">
+                     <bind match="none"/>
+                     <draw name="AF_FORM_TITLE" w="80.604mm" minH="4.826mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge stroke="lowered"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font usehref=".#som($template.#subform.#font)" size="11pt" weight="bold" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                           <fill>
+                              <color value="79,76,76"/>
+                           </fill>
+                        </font>
+                        <margin topInset="0mm" bottomInset="0.254mm" leftInset="1mm" rightInset="1mm"/>
+                        <para vAlign="bottom" spaceBelow="0pt" spaceAbove="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" lineHeight="12pt">
+                           <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                        </para>
+                        <value>
+                           <exData contentType="text/html">
+                              <body xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns="http://www.w3.org/1999/xhtml">Application Form
+
+</body>
+                           </exData>
+                        </value>
+                     </draw>
+                     <draw name="AF_HEADER_TEXT" w="80.604mm" minH="6.35mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge stroke="lowered"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font usehref=".#som($template.#subform.#font)" size="8pt" weight="normal" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                           <fill>
+                              <color value="145,143,143"/>
+                           </fill>
+                        </font>
+                        <margin topInset="0mm" bottomInset="0mm" leftInset="1mm" rightInset="1mm"/>
+                        <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" lineHeight="12pt">
+                           <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                        </para>
+                        <value>
+                           <exData contentType="text/html">
+                              <body xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns="http://www.w3.org/1999/xhtml">Company Name Here
+
+</body>
+                           </exData>
+                        </value>
+                     </draw>
+                     <margin topInset="1.524mm" bottomInset="1.524mm"/>
+                     <?templateDesigner expand 1?></subform>
+                  <draw name="topSeparator" y="20.32mm" w="184.15mm" h="0in">
+                     <value>
+                        <line slope="/">
+                           <edge thickness="0.635mm" usehref=".#som($template.#subform.#edge)"/>
+                        </line>
+                     </value>
+                  </draw>
+                  <?templateDesigner expand 1?></area>
+               <area x="12.7mm" y="263.664mm" name="Footer">
+                  <draw name="bottonSeparator" w="184.15mm" h="0in" y="3.036mm">
+                     <value>
+                        <line slope="/">
+                           <edge thickness="0.254mm" usehref=".#som($template.#subform.#edge)"/>
+                        </line>
+                     </value>
+                  </draw>
+                  <draw name="AF_DISCLAIMER_LABEL" y="7.115mm" h="6.259mm" w="130.175mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>DISCLAIMER</text>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" baselineShift="0pt" weight="normal" posture="normal" underline="0" lineThrough="0" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                     <desc>
+                        <text name="fieldLabel">Disclaimer Label</text>
+                     </desc>
+                  </draw>
+                  <draw name="AF_DISCLAIMER_TEXT" y="15.609mm" x="0.032mm" w="130.143mm" h="14.758mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text>This document is strictly private, confidential and personal to its recipients and should not be copied, distributed or reproduced in whole or in part, nor passed to any third party.</text>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" baselineShift="0pt">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                     <desc>
+                        <text name="fieldLabel">Disclaimer Text</text>
+                     </desc>
+                     <?renderCache.bounds 366075 39000 0 0 1417 1417 0 0?></draw>
+                  <field name="CurrentPageNumber" w="62mm" h="10.084mm" id="floatingField019144" access="readOnly" presence="hidden">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge stroke="lowered"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font usehref=".#som($template.#subform.#font)"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <event activity="ready" ref="$layout" name="event__layout_ready">
+                        <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this)
+</script>
+                     </event>
+                     <calculate override="error"/>
+                     <bind match="none"/>
+                     <?templateDesigner floatingFieldPlaceholder #?>
+                  </field>
+                  <field name="NumberofPages" w="62mm" h="10.084mm" id="floatingField020603" access="readOnly" presence="hidden">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge stroke="lowered"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font usehref=".#som($template.#subform.#font)"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <event activity="ready" ref="$layout" name="event__layout_ready">
+                        <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount()
+</script>
+                     </event>
+                     <calculate override="error"/>
+                     <bind match="none"/>
+                     <?templateDesigner floatingFieldPlaceholder ##?>
+                  </field>
+                  <draw name="pages" x="168.275mm" h="6.259mm" y="7.115mm" minW="16.587mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-decoration:none;letter-spacing:0in"><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField019144"/>/<span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField020603"/></p></body>
+                        </exData>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" weight="normal" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para hAlign="right" lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                  </draw>
+                  <field name="CurrentDate" w="62mm" h="10.084mm" id="floatingField013023" access="readOnly" presence="hidden">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge stroke="lowered"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font usehref=".#som($template.#subform.#font)"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <event activity="ready" ref="$layout" name="event__layout_ready">
+                        <script>$.rawValue = Num2Date(Date(), "YYYY-MM-DD")
+</script>
+                     </event>
+                     <calculate override="error"/>
+                     <bind match="none"/>
+                     <?templateDesigner floatingFieldPlaceholder {current date}?>
+                  </field>
+                  <draw name="date" y="15.609mm" x="155.575mm" h="6.259mm" minW="29.286mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-decoration:none;letter-spacing:0in"><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField013023"/></p></body>
+                        </exData>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" weight="normal" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para hAlign="right" lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                  </draw>
+                  <field name="CurrentTime" w="62mm" h="10.084mm" id="floatingField027838" access="readOnly" presence="hidden">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge stroke="lowered"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font usehref=".#som($template.#subform.#font)"/>
+                     <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <time/>
+                     </value>
+                     <event activity="ready" ref="$layout" name="event__layout_ready">
+                        <script>$.rawValue = Num2Time(Time(), "HH:MM:SS")
+</script>
+                     </event>
+                     <calculate override="error"/>
+                     <bind match="none"/>
+                     <?templateDesigner floatingFieldPlaceholder {current time}?>
+                  </field>
+                  <draw name="time" y="24.103mm" x="155.575mm" h="6.259mm" minW="29.286mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-decoration:none;letter-spacing:0in"><span xfa:embedType="uri" xfa:embedMode="raw" xfa:embed="#floatingField027838"/></p></body>
+                        </exData>
+                     </value>
+                     <font usehref=".#som($template.#subform.#font)" size="8pt" weight="normal" posture="normal" underline="0" lineThrough="0" baselineShift="0pt" letterSpacing="0" kerningMode="none" fontHorizontalScale="100%" fontVerticalScale="100%">
+                        <fill>
+                           <color value="145,143,143"/>
+                        </fill>
+                     </font>
+                     <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                     <para hAlign="right" lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                  </draw>
+                  <?templateDesigner expand 0?></area>
+               <?templateDesigner expand 1?></pageArea>
+         </pageSet>
+         <variables>
+            <?templateDesigner expand 1?>
+            <script contentType="application/x-javascript" name="dorRadioButtonMerge">
+            function mergeData(field, textField) {
+                if(dorMergeElementOverriddenData.isFieldOverridden(field.parent)){
+                    return;
+               }
+               var radioButtonList = textField.parent.resolveNode("AF_RADIOBUTTONLIST");
+               var hiddenField = textField.parent.resolveNode(textField.parent.name);
+               var oNodes = radioButtonList.nodes || [];
+               var nNodesLength = oNodes.length;
+               var sValue = getValueFromHiddenTextField(hiddenField);
+               var oOption = null;
+
+               if (dorShowSelectedOptions.value === "true") {
+                    hideRadioButtons(radioButtonList);
+                    if (hiddenField.rawValue != null){
+                        oOption = getSelectedNode(radioButtonList, sValue);
+                    }
+               } else {
+                    radioButtonList.rawValue = sValue;
+               }
+
+               // if radio button is inside table radio button title text field will be hidden
+               // make it visible
+               textField.presence = "visible";
+
+               // assign caption of selected option as value of textField
+               if ( oOption != null &amp;&amp; dorShowSelectedOptions.value === "true" ) {
+                    textField.rawValue = oOption.caption.value.text.value;
+               }
+            }
+
+            function hideRadioButtons(radioButtonList) {
+                var oNodes = radioButtonList.nodes || [];
+                var nNodesLength = oNodes.length;
+                 for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                 var oNode = oNodes.item(nNodeCount);
+                 if ( oNode.className === "field" ) {
+                    oNode.presence = "hidden";
+                 }
+               }
+            }
+
+            function getSelectedNode(radioButtonList, radioButtonListValue) {
+                var oNodes = radioButtonList.nodes || [];
+                var nNodesLength = oNodes.length;
+                var oOption = null;
+                for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                  var oNode = oNodes.item(nNodeCount);
+                  if ( oNode.className === "field" ) {
+                     var oItemsValue = oNode.resolveNode("#items.#text") || oNode.resolveNode("#items.#integer");
+                     if ( oItemsValue != null &amp;&amp; oItemsValue.value === radioButtonListValue) {
+                        oOption = oNode;
+                        break;
+                     }
+                  }
+               }
+               return oOption;
+            }
+
+         function getValueFromHiddenTextField(hiddenTextField) {
+            return hiddenTextField.rawValue != null ? hiddenTextField.rawValue.toString().replace(/^\s+|\s+$/g,'') : "";
+         }
+
+         function overrideOptionsForRadioButton(field, fieldOverriddenData) {
+         /**
+          * CQ-4307242 Generate DOR not working correctly with xml schema having checkbox and radio buttons
+          * "page" root node element was hardcoded, now it is dynamic.
+          */
+                var somExpr = field.somExpression.substring(xfa.resolveNode("xfa.form.#subform[0]").somExpression.length + 1);
+                var elementOverrideData = fieldOverriddenData[somExpr];
+                if (elementOverrideData.hasOwnProperty("options")) {
+                    var hiddenTextField = field.resolveNode(field.name);
+                    var titleField = field.resolveNode("AF_RADIOBUTTONLISTTITLE");
+                    var radioButtonList = field.resolveNode("AF_RADIOBUTTONLIST");
+                    titleField.presence = "visible";
+                    var optionsMap = elementOverrideData.options;
+                    var radioButtonListValue = getValueFromHiddenTextField(hiddenTextField);
+                    hideRadioButtons(radioButtonList);
+                    if ( radioButtonListValue != null &amp;&amp; optionsMap.hasOwnProperty(radioButtonListValue) ) {
+                        titleField.rawValue = optionsMap[radioButtonListValue];
+                    }
+                }
+            }
+</script>
+            <text name="dorValueSeparator">, </text>
+            <text name="dorShowSelectedOptions">true</text>
+            <text name="dorRowShadingInst">templateDesigner rowpattern first:.*, next:.*, firstcolor:.*, nextcolor:.*, apply:1</text>
+            <script contentType="application/x-javascript" name="dorCheckBoxMerge">
+            function mergeData(field, textField) {
+               if(dorMergeElementOverriddenData.isFieldOverridden(field.parent)){
+                    return;
+               }
+               var values = field.rawValue != null ? field.rawValue.toString().split(",") : [];
+               var checkBoxValues = getCheckBoxValues(field.parent);
+
+               // if check box is inside table check box title text field will be hidden
+               // make it visible and hide check boxes
+               textField.presence = "visible";
+               if (dorShowSelectedOptions.value === "true") {
+                  hideCheckBoxes(field.parent);
+               } else {
+                  resetCheckBoxes(field.parent);
+               }
+
+               // if no option selected hide check box subform
+               if ( values != null ) {
+                  var displayValues = [];
+                  var lengthOfValues = values.length;
+                  for (var count = 0; count &lt; lengthOfValues; count++) {
+                      // get check box button corresponding to value
+                      var value = values[count] || "";
+                      var checkBoxButton = checkBoxValues[value.toString().replace(/^\s+|\s+$/g, '')];
+                      if ( checkBoxButton != null &amp;&amp; checkBoxButton.className === "field") {
+                         if (dorShowSelectedOptions.value === "true") {
+                            // push display into displayValues array
+                            displayValues.push(checkBoxButton.caption.value.text.value);
+                         } else {
+                            checkBoxButton.value.integer = 1;
+                         }
+                      }
+                  }
+                  textField.rawValue = displayValues.join(dorValueSeparator.value) || "";
+               }
+            }
+
+            function hideCheckBoxes(nodeParent) {
+               var oNodes = nodeParent.nodes || [];
+               var nNodesLength = oNodes.length;
+
+               // hide all check boxes as selected options are shown together in textField
+               for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                  var oField = oNodes.item(nNodeCount);
+                  if ( oField.className === "field" )
+                     if ( oField.resolveNode("#ui.#checkButton") != null ) {
+                        oField.presence = "hidden";
+                     }
+               }
+            }
+
+            function resetCheckBoxes(nodeParent) {
+               var oNodes = nodeParent.nodes || [];
+               var nNodesLength = oNodes.length;
+
+               // hide all check boxes as selected options are shown together in textField
+               for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                  var oField = oNodes.item(nNodeCount);
+                  if ( oField.className === "field" ) {
+                     if ( oField.resolveNode("#ui.#checkButton") != null ) {
+                        oField.value.integer = 0;
+                     }
+                  }
+               }
+            }
+
+            function getCheckBoxValues(nodeParent) {
+               var mValues = {};
+               var oNodes = nodeParent.nodes || [];
+               var nNodesLength = oNodes.length;
+
+               // collect save values against check box in a map
+               for (var nNodeCount = 0; nNodeCount &lt; nNodesLength; nNodeCount++) {
+                  var oField = oNodes.item(nNodeCount);
+                  if ( oField.className === "field" ) {
+                     if ( oField.resolveNode("#ui.#checkButton") != null ) {
+                        sSaveValue = oField.resolveNode("extras.saveValue") || null;
+                        if ( sSaveValue != null ) {
+                           mValues[sSaveValue.value.toString().replace(/^\s+|\s+$/g, '')] = oField;
+                        }
+                     }
+                  }
+               }
+
+               return mValues;
+            }
+            function overrideOptionsForCheckBox(field,fieldOverriddenData) {
+             /**
+              * CQ-4307242 Generate DOR not working correctly with xml schema having checkbox and radio buttons
+              * "page" root node element was hardcoded, now it is dynamic.
+              */
+                var somExpr = field.somExpression.substring(xfa.resolveNode("xfa.form.#subform[0]").somExpression.length + 1);
+                var elementOverrideData = fieldOverriddenData[somExpr];
+                if (elementOverrideData.hasOwnProperty("options")) {
+                    var hiddenTextField = field.resolveNode(field.name);
+                    field.resolveNode("AF_CHECKBOXTITLE").presence = "visible";
+                    var optionsMap = elementOverrideData.options;
+                    var values = hiddenTextField.rawValue != null ? hiddenTextField.rawValue.toString().split(",") : [];
+                    hideCheckBoxes(field);
+                    if ( values != null ) {
+                        var displayValues = [];
+                        var lengthOfValues = values.length;
+                        for (var count = 0; count &lt; lengthOfValues; count++) {
+                            var value = values[count] || "";
+                            if (optionsMap.hasOwnProperty(value)) {
+                                displayValues.push(optionsMap[value]);
+                            }
+                        }
+                        }
+                    field.resolveNode("AF_CHECKBOXTITLE").rawValue = displayValues.join(dorValueSeparator.value) || "";
+                }
+            }
+
+            function overrideOptionsForImageChoice(field,fieldOverriddenData) {
+             /**
+              * CQ-4307242 Generate DOR not working correctly with xml schema having checkbox and radio buttons
+              * "page" root node element was hardcoded, now it is dynamic.
+              */
+                var somExpr = field.somExpression.substring(xfa.resolveNode("xfa.form.#subform[0]").somExpression.length + 1);
+                var elementOverrideData = fieldOverriddenData[somExpr];
+                if (elementOverrideData.hasOwnProperty("options")) {
+                    var hiddenTextField = field.resolveNode(field.name);
+                    field.resolveNode("AF_IMAGECHOICETITLE").presence = "visible";
+                    var optionsMap = elementOverrideData.options;
+                    var values = hiddenTextField.rawValue != null ? hiddenTextField.rawValue.toString().split(",") : [];
+                    hideCheckBoxes(field);
+                    field.resolveNode("AF_IMAGECHOICETITLE").rawValue = hiddenTextField.rawValue || "";
+                }
+            }
+</script>
+            <script contentType="application/x-javascript" name="dorExcludeFromDoR">
+            function exclude(oSOMExprs) {
+                    var nIndex = -1;
+                    var nPrevIndex = -1;
+                    var oFields = {};
+                    var oSeparator = '=';
+                    var oTrueStatus = "true";
+
+                    var oFieldStatus;
+                    var nIndexOfSeparator;
+                    var oSOMExpr;
+                    var bStatus;
+                    var oStatus;
+                     /**
+                      * CQ-4307242 Generate DOR not working correctly with xml schema having checkbox and radio buttons
+                      * "page" root node element was hardcoded, now it is dynamic.
+                      */
+                    var rootNodeElement = xfa.resolveNode("xfa.form.#subform[0]").name+"[0]" + ".";
+
+                    // initialize oFields map with templateIds or som expressions and their dorExclusion values
+                    while(true) {
+                        nIndex = oSOMExprs.indexOf(',', nPrevIndex + 1);
+                        if(nIndex == -1)
+                            break;
+
+                        oFieldStatus = oSOMExprs.substring(nPrevIndex + 1, nIndex);
+                        nIndexOfSeparator = oFieldStatus.indexOf(oSeparator);
+                        oSOMExpr = rootNodeElement + oFieldStatus.substring(0, nIndexOfSeparator);
+                        bStatus = oFieldStatus.substring(nIndexOfSeparator + 1);
+                        oStatus = "visible";
+
+                        if (bStatus == "true")
+                            oStatus = "hidden";
+
+                        oFields[oSOMExpr] = oStatus;
+                        nPrevIndex = nIndex;
+                    }
+                    oFieldStatus = oSOMExprs.substring(nPrevIndex + 1);
+                    nIndexOfSeparator = oFieldStatus.indexOf(oSeparator);
+                    oSOMExpr = rootNodeElement + oFieldStatus.substring(0, nIndexOfSeparator);
+                    bStatus = oFieldStatus.substring(nIndexOfSeparator + 1);
+                    oStatus = "visible";
+
+                    if (bStatus == "true")
+                        oStatus = "hidden";
+
+                    oFields[oSOMExpr] = oStatus;
+
+                    // get objects corresponding to templateIds
+                    iterate(xfa.form, oFields);
+              }
+
+              /**
+               * Maps SOM Expression or templateId (backward compatibility) to corresponding form field object.
+               */
+              function iterate(oTreeNode, oFields) {
+                var somExpr = oTreeNode.somExpression.substring(xfa.form.somExpression.length + 1);
+                if (oFields.hasOwnProperty(somExpr))
+                     oTreeNode.presence = oFields[somExpr];
+                else if(oFields.hasOwnProperty(oTreeNode.id)) // if we get templateId (backward compatibility)
+                     oTreeNode.presence = oFields[oTreeNode.id];
+
+                // iterate through children of subform and form only
+                if(oTreeNode.className == "subform" || oTreeNode.className == "form") {
+                    var oNodes = oTreeNode.nodes;
+                    for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                        iterate(oNodes.item(nCount), oFields);
+                    }
+                }
+            }
+         </script>
+            <script contentType="application/x-javascript" name="dorTableRowShading" runAt="both">
+            function shadeRows(oTableRow) {
+               applyRowShading(oTableRow);
+            }
+
+            /**
+             * If apply flag in row shading instruction is 1 extract values of first color
+             * and next color and use them to alternately shade rows
+             */
+            function applyRowShading(oTableRow) {
+               // get xml of table tag
+               var oSomExp = oTableRow.parent.somExpression.substring(xfa.form.somExpression.length + 1);
+               var oParentXML = xfa.template.resolveNode(oSomExp).saveXML("pretty");
+               // get regular expression to extract row shading instruction
+               var oFind = new RegExp(dorRowShadingInst.value, "g");
+               // get string for row shading instruction
+               var oRowShadingInst = oFind.exec(oParentXML)[0];
+
+               // regular expression to get color values and appy flag
+               var oColorRegExp = new RegExp("firstcolor:.*", "g");
+               // get string for color values and apply flag
+               var oColors = oColorRegExp.exec(oRowShadingInst)[0];
+
+               // values are separated by ,
+               var nIndexOfComma = oColors.indexOf(',');
+               // get value for first color
+               var oFirstColor = oColors.substring(11, nIndexOfComma);
+               nIndexOfComma = oColors.indexOf(',', nIndexOfComma + 1);
+               // get value for next color
+               var oNextColor = oColors.substring(11 + oFirstColor.length + 2 + 10, nIndexOfComma);
+               // get value of apply flag
+               var oApply = oColors.substring(11 + oFirstColor.length + 2 + 10 + oNextColor.length + 2 + 6);
+
+               // if apply flag is 1 only then apply row shading
+               if (oApply === '1')
+                  shadeRowsWithColor(oTableRow, oFirstColor, oNextColor);
+            }
+
+            /**
+             * Actual function to shade rows of the table alternately.
+             * @param oTableRow table row which has to be shade
+             * @param oFirstColor color with which first row would be shade
+             * @param oNextColor color with which next row would be shade
+             */
+            function shadeRowsWithColor(oTableRow, oFirstColor, oNextColor) {
+               // get hexadecimal values for colors
+               oFirstColor = getHexColor(oFirstColor);
+               oNextColor = getHexColor(oNextColor);
+
+               // get colors in string format
+               var oColor1 = getColorString(oFirstColor);
+               var oColor2 = getColorString(oNextColor);
+
+               // shade rows alternately
+               var oFreqs=[1,1];
+               var oColors=[oColor1, oColor2];
+               var nFreqSize = 0;
+
+               for (var i = 0; i &lt; oFreqs.length; i++)
+                  nFreqSize += oFreqs[i];
+
+               var nRelIndex = oTableRow.index % nFreqSize + 1;
+
+               for (var nRun=0; nRun &lt; oFreqs.length; nRun++) {
+                  if (nRelIndex &gt; oFreqs[nRun]) {
+                     nRelIndex -= oFreqs[nRun];
+                  }
+                  else {
+                     oTableRow.border.fill.color.value = oColors[nRun];
+                     break;
+                  }
+               }
+            }
+
+            /**
+             * Function that returns six digit hexadecimal value for color
+             * @param oColor hexadecimal color value having six or less digits
+             * @return six digit hexadecimal value with zero prefixed if needed
+             */
+            function getHexColor(oColor) {
+               while (oColor.length &lt; 6) {
+                  oColor = '0' + oColor;  // zero pad
+               }
+               return oColor;
+            }
+
+
+            /**
+             * Function that returns color string corresponding to hexadecimal color value
+             * @param oHexColor fixed length (6) hexadecimal color value
+             * @return color string
+             */
+            function getColorString(oHexColor) {
+               var oColor = parseInt(oHexColor.substring(0, 2), 16).toString() + ","
+                              + parseInt(oHexColor.substring(2, 4), 16).toString() + ","
+                              + parseInt(oHexColor.substring(4, 6), 16).toString();
+               return oColor;
+            }
+</script>
+            <script contentType="application/x-javascript" name="dorMergeElementOverriddenData">
+            function mergeOverriddenData(stateOverrideNode) {
+                        var elementJson = {};
+                        var oNodes = stateOverrideNode.nodes;
+                        for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                            var node = oNodes.item(nCount);
+                            if (node.className === "subform") {
+                            var overriddenElement = getElementJson(node);
+                            if (overriddenElement) {
+                                elementJson[overriddenElement.somExp] = overriddenElement;
+                            }
+                    }
+                }
+                iterate(xfa.form, elementJson);
+            }
+
+            function getElementJson(elementNode) {
+                    var somNode = elementNode.resolveNode("AF_SOMEXPR_XFO");
+                if (somNode  &amp;&amp; somNode.rawValue) {
+                    var retvalMap = {"somExp": somNode.rawValue};
+                    var optionsNode = elementNode.resolveNode("AF_OPTIONS_XFO");
+                    if (optionsNode) {
+                            var optionsMap = getOptionsMap(optionsNode);
+                            if (optionsMap) {
+                                retvalMap.options = optionsMap;
+                            }
+                    }
+                    return retvalMap;
+                }
+            }
+
+            function getOptionsMap(optionsNode) {
+                var retvalMap;
+                var oNodes = optionsNode.nodes;
+                for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                    var optionNode = oNodes.item(nCount);
+                    if (optionNode != null &amp;&amp; optionNode.className === "subform") {
+                            var optionDisplayNode = optionNode.resolveNode("AF_DISPLAY_XFO");
+                         var optionSaveNode = optionNode.resolveNode("AF_SAVE_XFO");
+                            if (optionDisplayNode &amp;&amp; optionDisplayNode.rawValue &amp;&amp; optionSaveNode &amp;&amp; optionSaveNode.rawValue) {
+                                retvalMap = retvalMap || {};
+                                retvalMap[optionSaveNode.rawValue] = optionDisplayNode.rawValue
+                        }
+                    }
+                }
+                return retvalMap;
+            }
+
+            /**
+             * Maps SOM Expression or templateId (backward compatibility) to corresponding form field object.
+             */
+            function iterate(oTreeNode, elementJson) {
+            /**
+             * CQ-4307242 Generate DOR not working correctly with xml schema having checkbox and radio buttons
+             * "page" root node element was hardcoded, now it is dynamic.
+             */
+                var somExpr = oTreeNode.somExpression.substring(xfa.resolveNode("xfa.form.#subform[0]").somExpression.length + 1);
+                if (elementJson.hasOwnProperty(somExpr)) {
+                    dorDefaultElementOverrideHandler.overrideOptionsForElement(oTreeNode, elementJson);
+                } else if (elementJson.hasOwnProperty(oTreeNode.id)) { // if we get templateId (backward compatibility)
+                    dorDefaultElementOverrideHandler.overrideOptionsForElement(oTreeNode, elementJson);
+                }
+                // iterate through children of subform and form only
+                if (oTreeNode.className == "subform" || oTreeNode.className == "form") {
+                    var oNodes = oTreeNode.nodes;
+                    for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                        iterate(oNodes.item(nCount), elementJson);
+                    }
+                }
+            }
+
+             function isFieldOverridden(field) {
+             /**
+              * CQ-4307242 Generate DOR not working correctly with xml schema having checkbox and radio buttons
+              * "page" root node element was hardcoded, now it is dynamic.
+              */
+                var somExprRequired = field.somExpression.substring(xfa.resolveNode("xfa.form.#subform[0]").somExpression.length + 1);
+                var stateOverrideNode = xfa.resolveNode("AF_STATEOVERRIDESSUBFORM_XFO");
+                var oNodes = stateOverrideNode.nodes;
+                for (var nCount = 0; nCount &lt; oNodes.length; nCount++) {
+                    var node = oNodes.item(nCount);
+                    if (node.className === "subform") {
+                        var overriddenElement = getElementJson(node);
+                        if (overriddenElement &amp;&amp; overriddenElement.somExp === somExprRequired) {
+                            return true;
+                        }
+                    }
+                }
+                return false;
+            }
+
+</script>
+            <script contentType="application/x-javascript" name="dorDefaultElementOverrideHandler"> function overrideOptionsForElement(elementNode, fieldOverriddenData) {
+    var element = elementNode.resolveNode("extras.dorElementType");
+    if (element != null) {
+        var elementType = element.value;
+        if (elementType === 'AF_CHECKBOX_XFO') {
+            dorCheckBoxMerge.overrideOptionsForCheckBox(elementNode, fieldOverriddenData);
+        } else if (elementType === 'AF_RADIOBUTTONLIST_XFO') {
+            dorRadioButtonMerge.overrideOptionsForRadioButton(elementNode, fieldOverriddenData);
+        } else if (elementType === "AF_IMAGECHOICE_XFO") {
+            dorCheckBoxMerge.overrideOptionsForImageChoice(elementNode, fieldOverriddenData);
+        } else if (elementType === "AF_DROPDOWNLIST_XFO") {
+            dorDropDownElementOverrideHandler.overrideOptionsForDropDown(elementNode, fieldOverriddenData);
+        }
+    }
+ }
+
+</script>
+            <script contentType="application/x-javascript" name="dorDropDownElementOverrideHandler">
+ function overrideOptionsForDropDown(field,fieldOverriddenData) {
+ /**
+  * CQ-4307242 Generate DOR not working correctly with xml schema having checkbox and radio buttons
+  * "page" root node element was hardcoded, now it is dynamic.
+  */
+    var somExpr = field.somExpression.substring(xfa.resolveNode("xfa.form.#subform[0]").somExpression.length + 1);
+    var elementOverrideData = fieldOverriddenData[somExpr];
+    if (elementOverrideData.hasOwnProperty("options")) {
+        if (checkIfNewDropDownValueSelected(field.rawValue,elementOverrideData.options)) {
+            field.clearItems();
+            for(var propertyName in elementOverrideData.options) {
+                var value = elementOverrideData.options[propertyName];
+                field.addItem(value, propertyName);
+            }
+        }
+    }
+ }
+
+ function checkIfNewDropDownValueSelected(fieldValue,optionsMap) {
+    var returnValue = false;
+    for(var propertyName in optionsMap) {
+        returnValue = returnValue  || (propertyName == fieldValue)
+    }
+    return returnValue;
+ }
+</script>
+         </variables>
+         <proto>
+            <font typeface="Arial"/>
+            <fill>
+               <color value="4,166,203"/>
+            </fill>
+            <edge>
+               <color value="4,166,203"/>
+            </edge>
+            <field name="designer__defaultHyphenation">
+               <para>
+                  <hyphenation hyphenate="1"/>
+               </para>
+            </field>
+            <draw name="spaceFiller" w="127mm" h="0mm" hAlign="center">
+               <value>
+                  <rectangle>
+                     <edge presence="hidden"/>
+                  </rectangle>
+               </value>
+            </draw>
+         </proto>
+         <subform layout="tb" name="AF_EXCLUDEFROMDORSUBFORM_XFO">
+            <field name="excludeFromDoRTextField" presence="hidden">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="45.6029mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text>Exclude From DoR Text Field</text>
+                  </value>
+               </caption>
+               <bind match="dataRef" ref="$record.excludeFromDoR"/>
+               <event activity="initialize" name="event__initialize">
+                  <script contentType="application/x-javascript">
+                 if ( this.rawValue != null )
+                     dorExcludeFromDoR.exclude(this.rawValue);
+              </script>
+               </event>
+            </field>
+            <?templateDesigner expand 1?></subform>
+         <subform name="AF_STATEOVERRIDESSUBFORM_XFO" w="170.074mm" layout="tb" presence="hidden">
+            <subform name="AF_ELEMENT_XFO" w="193.798mm" layout="tb" presence="hidden">
+               <bind match="dataRef" ref="$record.stateOverrides.element[*]"/>
+               <occur min="0" max="-1"/>
+               <subform w="169.567mm" name="AF_OPTIONS_XFO" layout="tb">
+                  <bind match="dataRef" ref="$.options"/>
+                  <subform w="169.014mm" name="AF_OPTION_XFO" layout="tb">
+                     <bind match="dataRef" ref="$.option[*]"/>
+                     <occur min="0" max="-1"/>
+                     <field name="AF_DISPLAY_XFO" w="146.775mm" h="9mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge stroke="lowered"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="25mm">
+                           <para vAlign="middle"/>
+                           <value>
+                              <text>Display</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="$.displayValue"/>
+                     </field>
+                     <field name="AF_SAVE_XFO" w="149.874mm" h="8.767mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge stroke="lowered"/>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="25mm">
+                           <para vAlign="middle"/>
+                           <value>
+                              <text>Save</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="$.saveValue"/>
+                     </field>
+                     <?templateDesigner expand 1?></subform>
+                  <?templateDesigner expand 0?></subform>
+               <field name="AF_SOMEXPR_XFO" w="168.968mm" h="9mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text>somExpr</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.somExpr"/>
+               </field>
+               <?templateDesigner expand 1?></subform>
+            <bind match="dataRef" ref="$record.stateOverrides"/>
+            <event activity="initialize" name="event__initialize">
+               <script contentType="application/x-javascript">
+     dorMergeElementOverriddenData.mergeOverriddenData(this)
+
+</script>
+            </event>
+            <?templateDesigner expand 1?></subform>
+      </subform>
+   </template>
+   <config xmlns="http://www.xfa.org/schema/xci/3.0/">
+      <agent name="designer">
+         <!--  [0..n]  -->
+         <destination>pdf</destination>
+         <pdf>
+            <!--  [0..n]  -->
+            <fontInfo/>
+         </pdf>
+      </agent>
+      <present>
+         <!--  [0..n]  -->
+         <destination>pdf</destination>
+         <pdf>
+            <!--  [0..n]  -->
+            <fontInfo>
+               <embed>0</embed>
+            </fontInfo>
+            <version>1.7</version>
+            <adobeExtensionLevel>11</adobeExtensionLevel>
+            <tagged>0</tagged>
+         </pdf>
+         <xdp>
+            <packets>*</packets>
+         </xdp>
+      </present>
+   </config>
+   <localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+      <locale name="en_US" desc="English (United States)">
+         <calendarSymbols name="gregorian">
+            <monthNames>
+               <month>January</month>
+               <month>February</month>
+               <month>March</month>
+               <month>April</month>
+               <month>May</month>
+               <month>June</month>
+               <month>July</month>
+               <month>August</month>
+               <month>September</month>
+               <month>October</month>
+               <month>November</month>
+               <month>December</month>
+            </monthNames>
+            <monthNames abbr="1">
+               <month>Jan</month>
+               <month>Feb</month>
+               <month>Mar</month>
+               <month>Apr</month>
+               <month>May</month>
+               <month>Jun</month>
+               <month>Jul</month>
+               <month>Aug</month>
+               <month>Sep</month>
+               <month>Oct</month>
+               <month>Nov</month>
+               <month>Dec</month>
+            </monthNames>
+            <dayNames>
+               <day>Sunday</day>
+               <day>Monday</day>
+               <day>Tuesday</day>
+               <day>Wednesday</day>
+               <day>Thursday</day>
+               <day>Friday</day>
+               <day>Saturday</day>
+            </dayNames>
+            <dayNames abbr="1">
+               <day>Sun</day>
+               <day>Mon</day>
+               <day>Tue</day>
+               <day>Wed</day>
+               <day>Thu</day>
+               <day>Fri</day>
+               <day>Sat</day>
+            </dayNames>
+            <meridiemNames>
+               <meridiem>AM</meridiem>
+               <meridiem>PM</meridiem>
+            </meridiemNames>
+            <eraNames>
+               <era>BC</era>
+               <era>AD</era>
+            </eraNames>
+         </calendarSymbols>
+         <datePatterns>
+            <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+            <datePattern name="long">MMMM D, YYYY</datePattern>
+            <datePattern name="med">MMM D, YYYY</datePattern>
+            <datePattern name="short">M/D/YY</datePattern>
+         </datePatterns>
+         <timePatterns>
+            <timePattern name="full">h:MM:SS A Z</timePattern>
+            <timePattern name="long">h:MM:SS A Z</timePattern>
+            <timePattern name="med">h:MM:SS A</timePattern>
+            <timePattern name="short">h:MM A</timePattern>
+         </timePatterns>
+         <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+         <numberPatterns>
+            <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+            <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+            <numberPattern name="percent">z,zz9%</numberPattern>
+         </numberPatterns>
+         <numberSymbols>
+            <numberSymbol name="decimal">.</numberSymbol>
+            <numberSymbol name="grouping">,</numberSymbol>
+            <numberSymbol name="percent">%</numberSymbol>
+            <numberSymbol name="minus">-</numberSymbol>
+            <numberSymbol name="zero">0</numberSymbol>
+         </numberSymbols>
+         <currencySymbols>
+            <currencySymbol name="symbol">$</currencySymbol>
+            <currencySymbol name="isoname">USD</currencySymbol>
+            <currencySymbol name="decimal">.</currencySymbol>
+         </currencySymbols>
+         <typefaces>
+            <typeface name="Myriad Pro"/>
+            <typeface name="Minion Pro"/>
+            <typeface name="Courier Std"/>
+            <typeface name="Adobe Pi Std"/>
+            <typeface name="Adobe Hebrew"/>
+            <typeface name="Adobe Arabic"/>
+            <typeface name="Adobe Thai"/>
+            <typeface name="Kozuka Gothic Pro-VI M"/>
+            <typeface name="Kozuka Mincho Pro-VI R"/>
+            <typeface name="Adobe Ming Std L"/>
+            <typeface name="Adobe Song Std L"/>
+            <typeface name="Adobe Myungjo Std M"/>
+            <typeface name="Adobe Devanagari"/>
+         </typefaces>
+      </locale>
+   </localeSet>
+   <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+         <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+            <xmp:MetadataDate>2017-02-10T09:56:20Z</xmp:MetadataDate>
+            <xmp:CreatorTool>Designer 6.2</xmp:CreatorTool>
+            <pdf:Producer>Designer 6.2</pdf:Producer>
+            <xmpMM:DocumentID>uuid:7038531f-2845-41b5-b36d-0a1a10c4122a</xmpMM:DocumentID>
+            <desc:version rdf:parseType="Resource">
+               <rdf:value>6.2.0.20160331.1.924316.921890</rdf:value>
+               <desc:ref>/template/subform[1]</desc:ref>
+            </desc:version>
+         </rdf:Description>
+      </rdf:RDF>
+   </x:xmpmeta>
+   <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+      <xfa:data xfa:dataNode="dataGroup"/>
+      <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+         <dd:data/>
+      </dd:dataDescription>
+   </xfa:datasets>
+</xdp:xdp>

@@ -1,6 +1,11 @@
-# Sample AEM project template
+# AEM Forms project template
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+This is a sample project that showcases some of the functionality of AEM Forms.
+
+- Workflows
+- Automated Forms Conversion Service
+- Form Data Models
+- Form Components
 
 ## Modules
 
