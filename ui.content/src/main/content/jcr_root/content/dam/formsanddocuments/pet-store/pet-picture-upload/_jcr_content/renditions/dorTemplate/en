@@ -19,7 +19,7 @@
       <?templateDesigner FormTargetVersion 36?>
       <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
       <?templateDesigner XDPPreviewFormat 20?>
-      <subform layout="tb" locale="en_US" name="data">
+      <subform layout="tb" locale="en_US" name="data" xmlns="http://www.xfa.org/schema/xfa-template/3.5/">
          <pageSet>
             <pageArea name="AF_MASTERPAGE" id="Page1">
                <contentArea x="12.7mm" y="31.75mm" w="184.15mm" h="230.886mm" name="ContentArea"/>
@@ -55,8 +55,7 @@
                         </para>
                         <value>
                            <exData contentType="text/html">
-                              <body xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns="http://www.w3.org/1999/xhtml">Application Form
-
+                              <body xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns="http://www.w3.org/1999/xhtml">Pet Submission Form
 </body>
                            </exData>
                         </value>
@@ -81,8 +80,7 @@
                         </para>
                         <value>
                            <exData contentType="text/html">
-                              <body xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns="http://www.w3.org/1999/xhtml">Company Name Here
-
+                              <body xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns="http://www.w3.org/1999/xhtml">Gen's Pet Adoption Center
 </body>
                            </exData>
                         </value>
@@ -866,7 +864,8 @@
               </script>
                </event>
             </field>
-            <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?>
+         </subform>
          <subform name="AF_STATEOVERRIDESSUBFORM_XFO" w="170.074mm" layout="tb" presence="hidden">
             <subform name="AF_ELEMENT_XFO" w="193.798mm" layout="tb" presence="hidden">
                <bind match="dataRef" ref="$record.stateOverrides.element[*]"/>
@@ -946,7 +945,222 @@
 
 </script>
             </event>
-            <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?>
+         </subform>
+         <subform w="184.15mm" name="guideRootPanel" layout="tb" id="guideContainer-rootPanel__">
+            <?templateDesigner expand 1?>
+            <border>
+               <edge presence="hidden" stroke="lowered"/>
+               <corner presence="hidden"/>
+            </border>
+            <breakBefore/>
+            <margin bottomInset="0mm"/>
+            <extras>
+               <text name="dorElementType">AF_PANELSUBFORM_XFO</text>
+            </extras>
+            <bind match="none"/>
+            <subform w="184.15mm" name="Pet" layout="tb" id="guideContainer-rootPanel-Pet1710364704886__">
+               <?templateDesigner expand 1?>
+               <border>
+                  <edge presence="hidden" stroke="lowered"/>
+                  <corner presence="hidden"/>
+               </border>
+               <breakBefore/>
+               <draw minH="5.842mm" name="AF_PANELTITLE" w="184.15mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text>Pet</text>
+                  </value>
+                  <font baselineShift="0pt" fontHorizontalScale="100%" fontVerticalScale="100%" kerningMode="none" letterSpacing="0" lineThrough="0" posture="normal" size="14pt" underline="0" usehref=".#som($template.#subform.#font)" weight="bold">
+                     <fill usehref=".#som($template.#subform.#fill)"/>
+                  </font>
+                  <margin bottomInset="1.27mm" leftInset="0.5mm" rightInset="0.5mm" topInset="3.81mm"/>
+                  <para lineHeight="18pt" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt">
+                     <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                  </para>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge thickness="0.1524mm">
+                        <color value="233,239,239"/>
+                     </edge>
+                     <edge presence="hidden"/>
+                     <corner thickness="1.524mm">
+                        <color value="233,239,239"/>
+                     </corner>
+                     <corner thickness="1.524mm"/>
+                     <corner thickness="0.152mm"/>
+                     <corner thickness="1.524mm"/>
+                  </border>
+                  <keep intact="contentArea" next="contentArea"/>
+               </draw>
+               <margin bottomInset="0mm"/>
+               <extras>
+                  <text name="dorElementType">AF_PANELSUBFORM_XFO</text>
+               </extras>
+               <bind match="none"/>
+               <field name="id_1" w="184.15mm" minH="9.001mm" id="guideContainer-rootPanel-Pet1710364704886-id__">
+                  <ui>
+                     <numericEdit>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font size="9pt" usehref=".#som($template.#subform.#font)" weight="normal">
+                     <fill>
+                        <color value="79,76,76"/>
+                     </fill>
+                  </font>
+                  <margin bottomInset="4.318mm" leftInset="1mm" rightInset="1mm" topInset="4.318mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" vAlign="middle"/>
+                  <caption reserve="59.85mm">
+                     <margin rightInset="12.7mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                     <value>
+                        <text>Id</text>
+                     </value>
+                     <font baselineShift="0pt" fontHorizontalScale="100%" fontVerticalScale="100%" kerningMode="none" letterSpacing="0" lineThrough="0" posture="normal" size="9pt" underline="0" usehref=".#som($template.#subform.#font)" weight="normal">
+                        <fill>
+                           <color value="167,165,165"/>
+                        </fill>
+                     </font>
+                  </caption>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge thickness="0.1524mm">
+                        <color value="249,252,251"/>
+                     </edge>
+                     <edge presence="hidden"/>
+                     <corner/>
+                     <corner/>
+                     <corner thickness="0.152mm">
+                        <color value="249,252,251"/>
+                     </corner>
+                     <corner/>
+                  </border>
+                  <keep intact="contentArea"/>
+                  <extras>
+                     <text name="dorElementType">AF_NUMERICFIELD_XFO</text>
+                  </extras>
+                  <bind match="dataRef" ref="$record.Pet.id"/>
+                  <value>
+                     <decimal/>
+                  </value>
+               </field>
+               <field name="name_1" w="184.15mm" minH="9.001mm" id="guideContainer-rootPanel-Pet1710364704886-name__">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" usehref=".#som($template.#subform.#font)" weight="normal">
+                     <fill>
+                        <color value="79,76,76"/>
+                     </fill>
+                  </font>
+                  <margin bottomInset="4.318mm" leftInset="1mm" rightInset="1mm" topInset="4.318mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" vAlign="middle">
+                     <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                  </para>
+                  <caption reserve="59.85mm">
+                     <margin rightInset="12.7mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                     <value>
+                        <text>Name</text>
+                     </value>
+                     <font baselineShift="0pt" fontHorizontalScale="100%" fontVerticalScale="100%" kerningMode="none" letterSpacing="0" lineThrough="0" posture="normal" size="9pt" underline="0" usehref=".#som($template.#subform.#font)" weight="normal">
+                        <fill>
+                           <color value="167,165,165"/>
+                        </fill>
+                     </font>
+                  </caption>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge thickness="0.1524mm">
+                        <color value="249,252,251"/>
+                     </edge>
+                     <edge presence="hidden"/>
+                     <corner/>
+                     <corner/>
+                     <corner thickness="0.152mm">
+                        <color value="249,252,251"/>
+                     </corner>
+                     <corner/>
+                  </border>
+                  <extras>
+                     <text name="dorElementType">AF_TEXTFIELD_XFO</text>
+                  </extras>
+                  <value>
+                     <text/>
+                  </value>
+                  <bind match="dataRef" ref="$record.Pet.name"/>
+               </field>
+               <field name="status" w="184.15mm" minH="12.7mm" id="guideContainer-rootPanel-Pet1710364704886-status__">
+                  <ui>
+                     <choiceList open="userControl">
+                        <margin/>
+                     </choiceList>
+                  </ui>
+                  <font size="9pt" usehref=".#som($template.#subform.#font)" weight="normal">
+                     <fill>
+                        <color value="79,76,76"/>
+                     </fill>
+                  </font>
+                  <margin bottomInset="4.318mm" leftInset="1mm" rightInset="1mm" topInset="4.318mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" vAlign="middle"/>
+                  <caption reserve="59.85mm">
+                     <margin rightInset="12.7mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle">
+                        <hyphenation use="designer__defaultHyphenation.para.hyphenation"/>
+                     </para>
+                     <value>
+                        <text>Status</text>
+                     </value>
+                     <font baselineShift="0pt" fontHorizontalScale="100%" fontVerticalScale="100%" kerningMode="none" letterSpacing="0" lineThrough="0" posture="normal" size="9pt" underline="0" usehref=".#som($template.#subform.#font)" weight="normal">
+                        <fill>
+                           <color value="167,165,165"/>
+                        </fill>
+                     </font>
+                  </caption>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge thickness="0.1524mm">
+                        <color value="249,252,251"/>
+                     </edge>
+                     <edge presence="hidden"/>
+                     <corner/>
+                     <corner/>
+                     <corner thickness="0.152mm">
+                        <color value="249,252,251"/>
+                     </corner>
+                     <corner/>
+                  </border>
+                  <keep intact="contentArea"/>
+                  <extras>
+                     <text name="dorElementType">AF_DROPDOWNLIST_XFO</text>
+                  </extras>
+                  <items>
+                     <text>Available</text>
+                     <text>Sold</text>
+                     <text>Pending</text>
+                  </items>
+                  <items presence="hidden" save="1">
+                     <text>available</text>
+                     <text>sold</text>
+                     <text>pending</text>
+                  </items>
+                  <bind match="dataRef" ref="$record.Pet.status"/>
+               </field>
+            </subform>
+         </subform>
       </subform>
    </template>
    <config xmlns="http://www.xfa.org/schema/xci/3.0/">

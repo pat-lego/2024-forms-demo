@@ -22,4 +22,5 @@
     
     <filter root="/content/dam/formsanddocuments/pet-store" mode="merge" />
     <filter root="/content/forms/af/pet-store" />
+    <filter root="/content/fd"/>
 </workspaceFilter>

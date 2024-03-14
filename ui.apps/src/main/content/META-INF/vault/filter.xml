@@ -3,6 +3,7 @@
     <filter root="/apps/entforms/clientlibs"/>
     <filter root="/apps/entforms/components"/>
     <filter root="/apps/entforms/i18n"/>
+    <filter root="/apps/entforms/fdeditor" />
     <filter root="/apps/fd/af/themes" mode="merge"/>
 
 </workspaceFilter>

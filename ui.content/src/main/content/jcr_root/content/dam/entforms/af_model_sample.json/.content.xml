@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="9d499145-2788-46a9-8745-45ffc5a4ee36">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2024-03-13T19:19:48.001Z"
-        jcr:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2024-03-13T22:39:40.150Z"
+        jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2024-03-13T19:19:47.165Z"
+            dam:extracted="{Date}2024-03-13T22:39:39.487Z"
             dam:sha1="48bf87b21473772fe0d7111e05e9e8cfc9b7fdf3"
             dam:size="{Long}5002"
             dc:format="application/json"
