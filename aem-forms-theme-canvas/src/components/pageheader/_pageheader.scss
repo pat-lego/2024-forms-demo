@@ -1,0 +1,20 @@
+.cmp-adaptiveform-pageheader{
+  font-size: $font-md;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  height: 90px;
+  background: $panel-bg-color;
+}
+.cmp-adaptiveform-pageheader img{
+  height: 3.75rem;
+  margin: $field-margin;
+  max-width: 100%;
+  width: auto;
+}
+.cmp-adaptiveform-pageheader div:last-child{
+  p{
+    padding: 0;
+    margin: 0;
+  }
+}

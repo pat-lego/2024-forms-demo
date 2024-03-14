@@ -1,0 +1,159 @@
+.cmp-adaptiveform-wizard{
+  color: $dark-gray;
+  font-size: $font-md;
+  margin: $field-margin;
+  background: $wizard-bg-color;
+  padding: 10px;
+  border: 1px solid $very-light-gray;
+}
+// below class for backward compatibility
+.cmp-adaptiveform-wizard__widget{
+  position: relative;
+}
+// below class for backward compatibility
+.cmp-adaptiveform-wizard__widget--v2.cmp-adaptiveform-wizard__widget{
+  position: unset;
+}
+.cmp-adaptiveform-wizard__label-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cmp-adaptiveform-wizard__tabList {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+}
+.cmp-adaptiveform-wizard .cmp-adaptiveform-wizard__tab{
+  border-bottom: 2px solid $very-light-gray;
+  color: $dark-gray;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  flex: 1;
+}
+.cmp-adaptiveform-wizard .cmp-adaptiveform-wizard__tab--active{
+  border-bottom: 2px solid $dark-gray;
+  color: $dark-gray;
+}
+.cmp-adaptiveform-wizard__containerNav{
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+
+// below class for backward compatibility
+.cmp-adaptiveform-wizard__wizardpanel{
+  margin-top: 45px;
+}
+// below class for backward compatibility
+.cmp-adaptiveform-wizard__wizardpanel--v2.cmp-adaptiveform-wizard__wizardpanel{
+  margin-top: unset;
+}
+// below class for backward compatibility
+.cmp-adaptiveform-wizard__previousNav{
+  position: absolute;
+  right: 140px;
+  top: 75px;
+  cursor:pointer;
+  height:2.5rem;
+  width:2.5rem;
+  border: 2px solid $light-gray;
+  border-radius:1.5rem;
+  margin-right:0.5rem;
+  background:url(./resources/images/Chevron-Left.svg) center center / 1rem 1rem no-repeat;
+}
+// below class for backward compatibility
+.cmp-adaptiveform-wizard__previousNav:hover{
+  background:url(./resources/images/Chevron-Left-White.svg) center center / 1rem 1rem no-repeat,$light-gray;
+}
+// below class for backward compatibility
+.cmp-adaptiveform-wizard__nextNav{
+  position: absolute;
+  right: 45px;
+  top: 75px;
+  height:2.5rem;
+  cursor:pointer;
+  width:2.5rem;
+  margin-right:1rem;
+  border: 2px solid $light-gray;
+  border-radius:1.5rem;
+  background:url(./resources/images/Chevron-Right.svg) center center / 1rem 1rem no-repeat;
+}
+// below class for backward compatibility
+.cmp-adaptiveform-wizard__nextNav:hover{
+  background:url(./resources/images/Chevron-Right-White.svg) center center / 1rem 1rem no-repeat,$dark-gray;
+  border-color:$dark-gray;
+}
+
+.cmp-adaptiveform-wizard__longdescription {
+  color: $light-gray;
+  background-color: $very-light-gray;
+  font-size: $font-sm;
+  margin-top: $error-top-margin;
+  margin-bottom: 5px;
+  padding: 10px;
+  p{
+    margin: 0;
+    padding: 0;
+  }
+}
+.cmp-adaptiveform-wizard__shortdescription {
+  font-size: $font-sm;
+  margin-top: $error-top-margin;
+}
+.cmp-adaptiveform-wizard__questionmark {
+  display:inline-block;
+  width:1rem;
+  height:1rem;
+  border-radius: 9px;
+  background: url(./resources/images/question.svg) center center / cover no-repeat,#969696;
+  cursor : pointer;
+  // below properties for backward compatibility
+  position: absolute;
+  right: 30px;
+}
+// below properties for backward compatibility
+.cmp-adaptiveform-wizard__label-container .cmp-adaptiveform-wizard__questionmark{
+  position: unset;
+  right: unset;
+}
+
+// =======css for v2 start=======
+.cmp-adaptiveform-wizard__nav{
+  cursor:pointer;
+  height:2.5rem;
+  width:2.5rem;
+  margin-right:1rem;
+  border: 2px solid $light-gray;
+  border-radius:1.5rem;
+  &--previous{
+    background:url(./resources/images/Chevron-Left.svg) center center / 1rem 1rem no-repeat;
+    &:hover{
+      background:url(./resources/images/Chevron-Left-White.svg) center center / 1rem 1rem no-repeat,$light-gray;
+    }
+  }
+  &--next{
+    background:url(./resources/images/Chevron-Right.svg) center center / 1rem 1rem no-repeat;
+    &:hover{
+      background:url(./resources/images/Chevron-Right-White.svg) center center / 1rem 1rem no-repeat,$dark-gray;
+      border-color:$dark-gray;
+    }
+  }
+}
+// change icon for rtl
+[dir="rtl"] .cmp-adaptiveform-wizard__nav{
+  &--previous{
+    background:url(./resources/images/Chevron-Right.svg) center center / 1rem 1rem no-repeat;
+    &:hover{
+      background:url(./resources/images/Chevron-Right-White.svg) center center / 1rem 1rem no-repeat,$dark-gray;
+    }
+  }
+  &--next{
+    background:url(./resources/images/Chevron-Left.svg) center center / 1rem 1rem no-repeat;
+    &:hover{
+      background:url(./resources/images/Chevron-Left-White.svg) center center / 1rem 1rem no-repeat,$light-gray;
+    }
+  }
+}
+// ========css for v2 end=======

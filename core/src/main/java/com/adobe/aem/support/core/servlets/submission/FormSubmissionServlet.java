@@ -14,7 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @Component(service = { Servlet.class })
-@SlingServletResourceTypes(resourceTypes = "entforms/fd/submi", 
+@SlingServletResourceTypes(resourceTypes = "entforms/fd/submit", 
 methods = { "POST"}, extensions = "submit", selectors = "jcr")
 public class FormSubmissionServlet extends SlingAllMethodsServlet {
 

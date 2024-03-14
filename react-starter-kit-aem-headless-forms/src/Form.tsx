@@ -68,7 +68,7 @@ const Form = (props: any) => {
     }, []);
     if (form != "") {
         const element = document.querySelector(".cmp-formcontainer__content")
-        const retVal = (<Spectrum3Provider theme={defaultTheme}>
+        const retVal = (<Spectrum3Provider theme={defaultTheme} colorScheme="light">
             <AdaptiveForm formJson={JSON.parse(form)} mappings={customMappings} onInitialize={onInitialize} onFieldChanged={onFieldChanged} onSubmit={onSubmit}/>
         </Spectrum3Provider>)
         return ReactDOM.createPortal(retVal, element)

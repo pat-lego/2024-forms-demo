@@ -153,3 +153,15 @@ https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/cont
  ## Headless Tutorial
 
  https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/tutorial/build-engaging-forms-using-core-components-and-headless-adaptive-forms-aem-forms-cloud-service
+
+ ## Use Case (Form Review)
+
+ - Submit form (We.Forms)
+ - Workflow Routes to manager
+ - Manager Approves/Rejects
+ - Workflow Processes based on user action
+
+Necessary Users:
+- Bob VanMaden (bobvanmaden@adobe.com)
+- Groups managers
+- Place bob > managers > workflow-users

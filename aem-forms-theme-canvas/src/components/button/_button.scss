@@ -1,0 +1,58 @@
+/* ===============Button================== */
+.cmp-adaptiveform-button{
+  margin: $field-margin;
+}
+.cmp-adaptiveform-button__help-container{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.cmp-adaptiveform-button__widget {
+  border: 2px solid $dark-gray;
+  background: $white;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: $dark-gray;
+  font-size: $font-md;
+}
+.cmp-adaptiveform-button__widget:hover {
+  background: $dark-gray;
+  color: $white;
+}
+[data-cmp-enabled]:not([data-cmp-enabled=true]) .cmp-adaptiveform-button__widget {
+  background: $gray;
+  color: $very-light-gray;
+}
+
+.cmp-adaptiveform-button__longdescription {
+  color: $light-gray;
+  background-color: $very-light-gray;
+  font-size: $font-sm;
+  margin-top: $error-top-margin;
+  margin-bottom: 5px;
+  padding: 10px;
+  p{
+    margin: 0;
+    padding: 0;
+  }
+}
+.cmp-adaptiveform-button__shortdescription {
+  font-size: $font-sm;
+  margin-top: $error-top-margin;
+}
+.cmp-adaptiveform-button__questionmark{
+  display:inline-block;
+  width:1rem;
+  height:1rem;
+  border-radius: 9px;
+  background: url(./resources/images/question.svg) center center / cover no-repeat,#969696;
+  cursor : pointer;
+  // below properties for backward compatibility
+  position: absolute;
+  right: 20px;
+}
+// below properties for backward compatibility
+.cmp-adaptiveform-button__help-container .cmp-adaptiveform-button__questionmark{
+  position: unset;
+  right: unset;
+}

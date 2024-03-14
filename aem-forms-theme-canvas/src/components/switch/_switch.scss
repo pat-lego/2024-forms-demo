@@ -1,0 +1,144 @@
+/* ===============Switch================== */
+.cmp-adaptiveform-switch {
+  color: $dark-gray;
+  font-size: $font-md;
+  margin: $field-margin;
+}
+
+.cmp-adaptiveform-switch__container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cmp-adaptiveform-switch__widget {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  display: block;
+  margin: 0px;
+}
+
+.cmp-adaptiveform-switch__widget-slider {
+  background-color: $chinese-silver;
+  border-radius: 34px;
+  transition: all .4s;
+  width: 24px;
+  height: 14px;
+  position: relative;
+}
+
+input:checked + .cmp-adaptiveform-switch__widget-slider {
+  background-color: $dark-blue;
+}
+
+input:focus + .cmp-adaptiveform-switch__widget-slider {
+  box-shadow: 0 0 1px $dark-blue;
+}
+
+.cmp-adaptiveform-switch__circle-indicator{
+  height: 10px;
+  width: 10px;
+  background-color: $white;
+  border-radius: 50%;
+  transition: all .4s;
+  position: absolute;
+  inset-block-start: 2px;
+  inset-inline-start: 2px;
+}
+[dir="rtl"] .cmp-adaptiveform-switch--filled  .cmp-adaptiveform-switch__circle-indicator {
+  -webkit-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  transform: translateX(-10px);
+  inset-block-end: 2px;
+  inset-block-start: unset;
+  -webkit-transition: .4s;
+}
+.cmp-adaptiveform-switch--filled  .cmp-adaptiveform-switch__circle-indicator {
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+  inset-block-end: 2px;
+  inset-block-start: unset;
+  -webkit-transition: .4s;
+}
+
+.cmp-adaptiveform-switch__longdescription {
+  color: $light-gray;
+  background-color: $very-light-gray;
+  font-size: $font-sm;
+  margin-top: $error-top-margin;
+  margin-bottom: 5px;
+  padding: 10px;
+  p{
+    margin: 0;
+    padding: 0;
+  }
+}
+.cmp-adaptiveform-switch__questionmark{
+  display:inline-block;
+  width:1rem;
+  height:1rem;
+  border-radius: 9px;
+  background: url(./resources/images/question.svg) center center / cover no-repeat,$light-gray;
+  cursor : pointer;
+  position: absolute;
+  right: 20px;
+  left: unset;
+}
+[dir="rtl"] .cmp-adaptiveform-switch__questionmark{
+  position: absolute;
+  right: unset;
+  left: 20px;
+}
+.cmp-adaptiveform-switch__errormessage{
+  color: $error;
+  font-size: $font-sm;
+  margin-top: $error-top-margin;
+}
+.cmp-adaptiveform-switch__help-container .cmp-adaptiveform-switch__questionmark{
+  position: unset;
+  right: unset;
+  left: unset;
+}
+[dir="rtl"] .cmp-adaptiveform-switch__help-container .cmp-adaptiveform-switch__questionmark{
+  position: unset;
+  right: unset;
+  left: unset;
+}
+.cmp-adaptiveform-switch__shortdescription {
+  font-size: $font-sm;
+  margin-top: $error-top-margin;
+}
+.cmp-adaptiveform-switch[data-cmp-valid=false]{
+  background: $light-error;
+  border: 0 solid $error;
+  border-inline-start-width: 2px;
+  padding-inline-start: 5px;
+}
+.cmp-adaptiveform-switch[data-cmp-valid=true]{
+  border: 0 solid $success;
+  border-inline-start-width: 2px;
+  padding-inline-start: 5px;
+}
+.cmp-adaptiveform-switch__widget-label {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.cmp-adaptiveform-switch__option {
+  font-size: 14px;
+}
+.cmp-adaptiveform-switch__hide-labels .cmp-adaptiveform-switch__option--on {
+  display: none;
+}
+.cmp-adaptiveform-switch__hide-labels .cmp-adaptiveform-switch__option--off {
+  display: none;
+}
+.cmp-adaptiveform-switch__unhide-labels .cmp-adaptiveform-switch__option--on {
+  display:block
+}
+.cmp-adaptiveform-switch__unhide-labels .cmp-adaptiveform-switch__option--off {
+  display:block
+}

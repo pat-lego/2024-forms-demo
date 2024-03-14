@@ -22,8 +22,8 @@ header.experiencefragment {
             color: $color-link;
             text-decoration: underline;
 
-            @media (prefers-color-scheme: dark) {
-                color: $color-link-dark;
+            @media (prefers-color-scheme: white) {
+                color: $color-background;
             }
         }
     }

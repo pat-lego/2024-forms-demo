@@ -1,0 +1,31 @@
+/* ===============Container================== */
+
+.cmp-container.cmp-adaptiveform-container{
+  padding: 0 20px;
+}
+.cmp-adaptiveform-container__wrapper{
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+  label > p, span > p {
+    display: inline;
+  }
+}
+@media(max-width:767px){
+  .cmp-adaptiveform-container__wrapper{
+    padding: 10px 20px 10px 10px;
+  }
+}
+.cmp-adaptiveform-container--loading {
+  background: rgb(255, 255, 255) url(./resources/images/busy-state.gif) no-repeat fixed center;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  cursor: wait;
+  z-index: 100000;
+}
