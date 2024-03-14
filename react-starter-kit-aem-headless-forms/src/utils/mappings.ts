@@ -10,6 +10,7 @@ import Form from "../components/form";
 const customMappings: any = {
   "form": Form,
   "text-input": TextInput,
+  "multiline-input": TextInput,
   "number-input": NumberInput,
   "radio-group" : RadioGroup,
   "button": Button,
