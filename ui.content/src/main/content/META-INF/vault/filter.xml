@@ -22,5 +22,10 @@
     
     <filter root="/content/dam/formsanddocuments/pet-store" mode="merge" />
     <filter root="/content/forms/af/pet-store" />
+
+    <!-- For PDF Servlet -->
     <filter root="/content/fd"/>
+
+    <filter root="/content/forms/af/headless" />
+    <filter root="/content/dam/formsanddocuments/headless" />
 </workspaceFilter>

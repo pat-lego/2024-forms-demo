@@ -10,8 +10,8 @@ body {
     background:  $color-background;
 
     @media (prefers-color-scheme: dark) {
-        color:       $color-foreground-dark;
-        background:  $color-background-dark;
+        color:       $color-foreground;
+        background:  $color-background;
     }
 }
 

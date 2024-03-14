@@ -5,13 +5,13 @@
     jcr:uuid="d8da00fb-5358-48d0-b16c-d1ae14604437">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2024-03-13T22:39:50.195Z"
+        jcr:lastModified="{Date}2024-03-14T02:06:53.733Z"
         jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent"
         lcResource="{Long}1"
         type="lcResource">
         <metadata
-            dam:extracted="{Date}2024-03-13T22:39:49.957Z"
+            dam:extracted="{Date}2024-03-14T02:06:53.550Z"
             dam:sha1="5a032a67295ac615f9b2f892aea9cece0c539dc0"
             dam:size="{Long}3864"
             dc:format="application/json"

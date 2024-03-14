@@ -3,7 +3,7 @@
     jcr:primaryType="dam:Asset">
     <jcr:content
         cq:conf="\0"
-        jcr:lastModified="{Date}2024-03-13T16:25:43.834Z"
+        jcr:lastModified="{Date}2024-03-14T02:09:47.467Z"
         jcr:primaryType="dam:AssetContent"
         sling:resourceType="fd/fm/af/render"
         guide="1"
@@ -19,8 +19,8 @@
             availableInMobileApp="{Boolean}false"
             description="we-forms"
             dorTemplateChanged="Boolean"
-            dorTemplateRef="/content/dam/formsanddocuments/we/en/we-forms.xdp"
-            dorType="select"
+            dorTemplateRef="/content/dam/formsanddocuments/we/en/output/we-forms/jcr:content/renditions/dorTemplate"
+            dorType="generate"
             formmodel="jsonschema"
             originalDorTemplateRef="/content/dam/formsanddocuments/we/en/we-forms.xdp"
             schemaRef="/content/dam/formsanddocuments/we/en/output/schema/we-forms.schema.json"
