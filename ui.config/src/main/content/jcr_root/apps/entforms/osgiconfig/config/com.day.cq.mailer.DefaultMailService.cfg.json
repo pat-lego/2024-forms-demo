@@ -1,0 +1,11 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "smtp.password":"{5881be56656148010a59bd8869d48674fb4201a6d1b739317755c32bf8083e3e4925df1ecdd77856b5efcae91fb5c67b3a7be171a6e3926480ade557a003f544}",
+  "smtp.requiretls":true,
+  "debug.email":true,
+  "smtp.port:Integer":587,
+  "smtp.user":"AKIAXU5DNMN5G5OJQDJJ",
+  "smtp.starttls":true,
+  "from.address":"plegault@adobe.com",
+  "smtp.host":"email-smtp.ca-central-1.amazonaws.com"
+}
