@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:isCheckedOut="{Boolean}false"
+    jcr:primaryType="cq:WorkflowModel"
+    jcr:uuid="16974407-853b-4dd1-bfb9-4890dc8eb072"
+    sling:resourceType="cq/workflow/components/model"
+    description="No Description"
+    title="Forms Submission Workflow">
+    <variables jcr:primaryType="nt:unstructured">
+        <actionTaken
+            jcr:primaryType="nt:unstructured"
+            name="actionTaken"
+            type="java.lang.String"/>
+        <DoR
+            jcr:primaryType="nt:unstructured"
+            name="DoR"
+            type="com.adobe.aemfd.docmanager.Document"/>
+        <Data
+            jcr:primaryType="nt:unstructured"
+            name="Data"
+            type="com.adobe.aemfd.docmanager.Document"/>
+        <Attachments
+            jcr:primaryType="nt:unstructured"
+            name="Attachments"
+            subType="com.adobe.aemfd.docmanager.Document"
+            type="java.util.ArrayList"/>
+    </variables>
+    <metaData
+        cq:generatingPage="/conf/global/settings/workflow/models/forms-submission-workflow/jcr:content"
+        cq:lastModified="{Long}1710424824399"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        lastSynced="{Date}2024-03-14T10:00:24.394-04:00"/>
+    <nodes jcr:primaryType="nt:unstructured">
+        <node0
+            jcr:primaryType="cq:WorkflowNode"
+            title="Start"
+            type="START">
+            <metaData jcr:primaryType="nt:unstructured"/>
+        </node0>
+        <node1
+            jcr:primaryType="cq:WorkflowNode"
+            description="Create and assign a task based on an adaptive form, non-interactive PDF, or interactive communication"
+            title="Assign Task"
+            type="PROCESS">
+            <metaData
+                jcr:primaryType="nt:unstructured"
+                ALLOW_OUT_OF_OFFICE="false"
+                allowExplicitSharing="false"
+                allowInboxSharing="false"
+                DELEGATE_TO="workflow-users"
+                DUEDATE_UNIT="OFF"
+                DYNAMIC_ASSIGNEE="[,]"
+                FORM_CHOOSER_SERVICE="com.adobe.fd.workflow.api.fdinternal.PayloadFormChooser"
+                FORM_RESOLUTION="SERVICE"
+                FORM_TYPE="AF"
+                HISTORY_DOR="READONLY_AF"
+                HTML_EMAIL_TEMPLATE_LOCATION="/libs/fd/dashboard/templates/email/htmlEmailTemplate.txt"
+                icDataSourceType="PROVIDEDATADOCUMENT"
+                INPUT_COMBINED_DATAXML="VARIABLE:Data"
+                IS_ATTACHMENT_ALLOWED="false"
+                IS_COMMENT_ALLOWED="true"
+                IS_NEXT_STEP_DATA_ALLOWED="true"
+                IS_PREVIOUS_STEP_DATA_ALLOWED="true"
+                PARTICIPANT="workflow-users"
+                PROCESS="com.adobe.fd.workspace.step.service.AssignFormStep"
+                PROCESS_AUTO_ADVANCE="false"
+                PROCESS_PARTICIPANT_TYPE="static"
+                PROVIDE_METADATA="true"
+                RECIPIENT_EMAIL_RESOLUTION="DEFAULT"
+                ROUTE_PROPERTYNAME="actionTaken"
+                ROUTES="[{&quot;Route_Label&quot;:&quot;Approved&quot;\,&quot;Route_Icon_Name&quot;:&quot;&quot;},{&quot;Route_Label&quot;:&quot;Rejected&quot;\,&quot;Route_Icon_Name&quot;:&quot;&quot;}]"
+                SEND_EMAIL_NOTIFICATION="true"
+                SHOW_ACTION="true"
+                SHOW_ASSIGNEE="true"
+                SHOW_COMMENT="true"
+                SHOW_DOCUMENT_OF_COMPLETED_TASK="true"
+                SHOW_PRE_STEP_COMMENT_ATTACHMENT="true"
+                SHOW_RESET="true"
+                SHOW_SAVE="true"
+                SHOW_SUBMIT="true"
+                STATIC_ASSIGNEE="managers"
+                SUBTYPE="forms:assigntask"
+                TASK_PRIORITY="MEDIUM"
+                TIMEOUT_HANDLER="[,]"
+                USER_METADATA_RESOURCE="[,]"
+                WORK_ITEM_TYPE="AF_ASSIGN_STEP"
+                workflowStage="[,]"/>
+        </node1>
+        <node2
+            jcr:primaryType="cq:WorkflowNode"
+            title="OR_SPLIT"
+            type="OR_SPLIT">
+            <metaData jcr:primaryType="nt:unstructured"/>
+        </node2>
+        <node3
+            jcr:primaryType="cq:WorkflowNode"
+            title="OR_JOIN"
+            type="OR_JOIN">
+            <metaData jcr:primaryType="nt:unstructured"/>
+        </node3>
+        <node4
+            jcr:primaryType="cq:WorkflowNode"
+            description="Use the email step to send an HTML email. For example, you can use the email step to send a document of record, adaptive form and interactive communication link, and a PDF document on completion of a workflow."
+            title="Send Approval Email"
+            type="PROCESS">
+            <metaData
+                jcr:primaryType="nt:unstructured"
+                bccAddressType="Literal"
+                ccAddressType="Literal"
+                emailSubject="Form Process Completed [Approved]"
+                fromAddressType="Literal"
+                fromAddressValue="plegault@adobe.com"
+                PROCESS="com.adobe.fd.workflow.email.SendEmailStep"
+                PROCESS_AUTO_ADVANCE="true"
+                subjectType="Literal"
+                templatePath="/apps/entforms/email/approval.html"
+                toAddressType="Literal"
+                toAddressValue="plegault@adobe.com"/>
+        </node4>
+        <node5
+            jcr:primaryType="cq:WorkflowNode"
+            description="Use the email step to send an HTML email. For example, you can use the email step to send a document of record, adaptive form and interactive communication link, and a PDF document on completion of a workflow."
+            title="Send Rejected Email"
+            type="PROCESS">
+            <metaData
+                jcr:primaryType="nt:unstructured"
+                bccAddressType="Literal"
+                ccAddressType="Literal"
+                emailSubject="Form Process Completed [Rejected]"
+                fromAddressType="Literal"
+                fromAddressValue="plegault@adobe.com"
+                PROCESS="com.adobe.fd.workflow.email.SendEmailStep"
+                PROCESS_AUTO_ADVANCE="true"
+                subjectType="Literal"
+                templatePath="/apps/entforms/email/rejected.html"
+                toAddressType="Literal"
+                toAddressValue="plegault@adobe.com"/>
+        </node5>
+        <node6
+            jcr:primaryType="cq:WorkflowNode"
+            title="End"
+            type="END">
+            <metaData jcr:primaryType="nt:unstructured"/>
+        </node6>
+    </nodes>
+    <transitions jcr:primaryType="nt:unstructured">
+        <node0_x0023_node1
+            jcr:primaryType="cq:WorkflowTransition"
+            from="node0"
+            rule="\0"
+            to="node1">
+            <metaData jcr:primaryType="nt:unstructured"/>
+        </node0_x0023_node1>
+        <node1_x0023_node2
+            jcr:primaryType="cq:WorkflowTransition"
+            from="node1"
+            to="node2">
+            <metaData jcr:primaryType="nt:unstructured"/>
+        </node1_x0023_node2>
+        <node2_x0023_node4
+            jcr:primaryType="cq:WorkflowTransition"
+            from="node2"
+            rule="\0"
+            to="node4">
+            <metaData
+                jcr:primaryType="nt:unstructured"
+                isDefault="true"/>
+        </node2_x0023_node4>
+        <node4_x0023_node3
+            jcr:primaryType="cq:WorkflowTransition"
+            from="node4"
+            to="node3">
+            <metaData jcr:primaryType="nt:unstructured"/>
+        </node4_x0023_node3>
+        <node2_x0023_node5
+            jcr:primaryType="cq:WorkflowTransition"
+            from="node2"
+            rule="\0"
+            to="node5">
+            <metaData
+                jcr:primaryType="nt:unstructured"
+                isDefault="false"/>
+        </node2_x0023_node5>
+        <node5_x0023_node3
+            jcr:primaryType="cq:WorkflowTransition"
+            from="node5"
+            to="node3">
+            <metaData jcr:primaryType="nt:unstructured"/>
+        </node5_x0023_node3>
+        <node3_x0023_node6
+            jcr:primaryType="cq:WorkflowTransition"
+            from="node3"
+            to="node6">
+            <metaData jcr:primaryType="nt:unstructured"/>
+        </node3_x0023_node6>
+    </transitions>
+</jcr:root>

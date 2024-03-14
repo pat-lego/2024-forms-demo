@@ -142,6 +142,10 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
  -D includeFormsenrollment="y" \
  -D includeFormsheadless="y"
 
+## Forms Setup
+
+https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment
+
  ## Forms Conversion Documentation 
  
  https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/configure-service.html?lang=en

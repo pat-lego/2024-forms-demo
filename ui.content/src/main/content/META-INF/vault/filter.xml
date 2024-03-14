@@ -26,6 +26,11 @@
     <!-- For PDF Servlet -->
     <filter root="/content/fd"/>
 
+    <!-- For headless form -->
     <filter root="/content/forms/af/headless" />
     <filter root="/content/dam/formsanddocuments/headless" />
+
+    <!-- Workflow Submission -->
+    <filter root="/conf/global/settings/workflow/models/forms-submission-workflow"/>
+    <filter root="/var/workflow/models/forms-submission-workflow"/>
 </workspaceFilter>
