@@ -154,6 +154,8 @@ https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/cont
 
  https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/tutorial/build-engaging-forms-using-core-components-and-headless-adaptive-forms-aem-forms-cloud-service
 
+ https://experienceleague.adobe.com/en/docs/experience-manager-learn/forms/embed-form-spa/display-thank-you-message
+
  ## Use Case (Form Review)
 
  - Submit form (We.Forms)
