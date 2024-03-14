@@ -9,12 +9,7 @@ body {
     color:       $color-foreground;
     background:  $color-background;
 
-    // @media (prefers-color-scheme: dark) {
-    //     color:       $color-foreground;
-    //     background:  $color-background;
-    // }
-
-    @media (prefers-color-scheme: white) {
+    @media (prefers-color-scheme: dark) {
         color:       $color-foreground;
         background:  $color-background;
     }
@@ -25,7 +20,7 @@ body {
 a {
     color: $color-link;
 
-    @media (prefers-color-scheme: white) {
+    @media (prefers-color-scheme: dark) {
         color: $color-background;
     }
 }
