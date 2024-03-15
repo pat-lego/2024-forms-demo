@@ -5,14 +5,14 @@
     jcr:uuid="66fbd2c1-eefd-4f7b-9ada-c1c6968c3d4d">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2024-03-13T22:39:40.459Z"
+        jcr:lastModified="{Date}2024-03-14T09:14:17.018-04:00"
         jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:ColorSpace="{Long}-1"
             dam:ExifOffset="{Long}232"
-            dam:extracted="{Date}2024-03-13T22:39:39.553Z"
+            dam:extracted="{Date}2024-03-14T09:14:16.396-04:00"
             dam:Fileformat="JPEG"
             dam:JpgFromRawLength="{Long}988"
             dam:JpgFromRawStart="{Long}382"

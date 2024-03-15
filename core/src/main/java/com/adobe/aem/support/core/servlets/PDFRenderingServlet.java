@@ -45,11 +45,11 @@ public class PDFRenderingServlet extends SlingAllMethodsServlet {
             try (OutputStream out = response.getOutputStream()) {
                 PDFOutputOptions options = new PDFOutputOptions();
                 Document pdf = this.outputService.generatePDFOutput("crx://" + xdpPath.get(), null, options);
-                response.setStatus(SlingHttpServletResponse.SC_OK);
-                response.setContentType("application/pdf");
                 logger.info("Generated the pdf");
+                response.setContentType("application/pdf");
                 IOUtils.copy(pdf.getInputStream(), out);
                 out.flush();
+                response.setStatus(SlingHttpServletResponse.SC_OK);
             } catch (OutputServiceException e) {
                 logger.error("Failed to generate PDF document from template {}", xdpPath.get());
                 response.setStatus(SlingHttpServletResponse.SC_INTERNAL_SERVER_ERROR);
@@ -69,11 +69,11 @@ public class PDFRenderingServlet extends SlingAllMethodsServlet {
             try (OutputStream out = response.getOutputStream()) {
                 PDFOutputOptions options = new PDFOutputOptions();
                 Document pdf = this.outputService.generatePDFOutput("crx://" + xdpPath.get(), null, options);
-                response.setStatus(SlingHttpServletResponse.SC_OK);
-                response.setContentType("application/pdf");
                 logger.info("Generated the pdf");
+                response.setContentType("application/pdf");
                 IOUtils.copy(pdf.getInputStream(), out);
                 out.flush();
+                response.setStatus(SlingHttpServletResponse.SC_OK);
             } catch (OutputServiceException e) {
                 logger.error("Failed to generate PDF document from template {}", xdpPath.get());
                 response.setStatus(SlingHttpServletResponse.SC_INTERNAL_SERVER_ERROR);

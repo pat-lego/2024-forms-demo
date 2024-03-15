@@ -2,32 +2,32 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="8d237514-2bb5-4125-a14f-6a4fdde6def0">
+    jcr:uuid="02a72e43-7559-48d8-a286-fa21d54ae36f">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2024-03-14T09:14:16.897-04:00"
+        jcr:lastModified="{Date}2024-03-15T15:09:56.578-04:00"
         jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:Comments="Software: Adobe ImageReady&#xa;"
-            dam:extracted="{Date}2024-03-14T09:14:16.372-04:00"
+            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;XMP Core 5.5.0&quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;/>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2024-03-15T15:09:55.934-04:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}1"
-            dam:Physicalheightindpi="{Long}-1"
-            dam:Physicalheightininches="{Decimal}-1.0"
-            dam:Physicalwidthindpi="{Long}-1"
-            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}7.443513870239258"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}16.98398780822754"
             dam:Progressive="no"
-            dam:sha1="6e4deab0cdcec8bae37c0ffce04d4b5668ba2dd8"
-            dam:size="{Long}2888"
+            dam:sha1="32c1bd18a33a6f6ed4a1112093c4581bd8b6c69e"
+            dam:size="{Long}231515"
             dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}90"
-            tiff:ImageWidth="{Long}900"/>
+            tiff:ImageLength="{Long}536"
+            tiff:ImageWidth="{Long}1223"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
