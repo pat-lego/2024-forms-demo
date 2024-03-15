@@ -9,7 +9,7 @@ the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTA
 OF ANY KIND, either express or implied. See the License for the specific language
 governing permissions and limitations under the License.
 */
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AdaptiveForm } from "@aemforms/af-react-renderer";
 import customMappings from './utils/mappings';
 import ReactDOM from "react-dom";
@@ -17,6 +17,7 @@ import { Action, FormModel } from "@aemforms/af-core";
 //@ts-ignore
 import { Provider as Spectrum3Provider, defaultTheme } from '@adobe/react-spectrum'
 import localFormJson from '../form-definations/form-model.json';
+import { ToastContainer, ToastQueue } from "@react-spectrum/toast";
 
 const getForm = async () => {
   if (process.env.USE_LOCAL_JSON == 'true') {
@@ -35,35 +36,29 @@ const getForm = async () => {
 }
 
 const Form = (props: any) => {
-  const [form, setForm] = useState(undefined)
-  const [formData, setFormData] = useState({})
-  const onSubmit = (action: Action) => {
-    console.log(form)
-    const actionURL = form.action
-    console.log('Submitting ', actionURL);
-    // const thankyouPage =  action?.payload?.redirectUrl;
-    // console.log('thankyouPage' + thankyouPage);
-    // const thankYouMessage = action?.payload?.thankYouMessage;
-    // console.log('thankYouMessage' + thankYouMessage);
-    // if(thankyouPage){
-    //   console.log('window.location.replace(thankyouPage)')
-    //   window.location.replace(thankyouPage);
-    // }else if(thankYouMessage){
-    //   console.log('alert(thankYouMessage)')
-    //   alert(thankYouMessage);
-    // }
-  };
+  const [form, setForm] = useState(undefined);
+
+  const onSuccess = (action: any) => {
+    let body = action.payload?.body;
+    ToastQueue.positive(body.thankYouMessage.replace(/<(.|\n)*?>/g, ''));
+    console.log("Thank you message", body.thankYouMessage.replace(/<(.|\n)*?>/g, ''));
+  }
+
+  const onError = (action: any) => {
+    console.error("Error'ed when trying to send the form data to the server");
+  }
+
+  const onFailure = (action: any) => {
+    console.error("Failed to send the form data to the server");
+  }
 
   const onInitialize = (action: Action) => {
     console.log('Initializing Form');
   };
 
-  const onFieldChanged = useCallback((action: Action) => {
-    console.log(action.payload.field.name)
-    const value = action.payload.changes.find((c: any) => c.propertyName === 'value')
-    console.log(value?.currentValue)
-    setFormData((prevData) => ({...prevData, [action.payload.field.name]: value?.currentValue}))
-  }, [setFormData]);
+  const onFieldChanged = (action: Action) => {
+    console.log("Field has changed")
+  };
 
   useEffect(() => {
     getForm().then(json => {
@@ -77,9 +72,12 @@ const Form = (props: any) => {
 
   if (form) {
     const element = document.querySelector(".cmp-formcontainer__content")
-    const retVal = (<Spectrum3Provider theme={defaultTheme} colorScheme="light">
-      <AdaptiveForm formJson={form} mappings={customMappings} onInitialize={onInitialize} onFieldChanged={onFieldChanged} onSubmit={onSubmit}/>
-    </Spectrum3Provider>)
+    const retVal = (
+      <Spectrum3Provider theme={defaultTheme} colorScheme="light">
+        <AdaptiveForm formJson={form} mappings={customMappings} onSubmitSuccess={onSuccess} onSubmitError={onError} onSubmitFailure={onFailure} onInitialize={onInitialize} onFieldChanged={onFieldChanged} />
+        <ToastContainer />
+      </Spectrum3Provider>
+    )
     return ReactDOM.createPortal(retVal, element)
   }
   return null
