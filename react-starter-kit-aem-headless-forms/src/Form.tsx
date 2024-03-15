@@ -15,7 +15,7 @@ import customMappings from './utils/mappings';
 import ReactDOM from "react-dom";
 import { Action, FormModel } from "@aemforms/af-core";
 //@ts-ignore
-import { Provider as Spectrum3Provider, defaultTheme } from '@adobe/react-spectrum'
+import { Flex, Provider as Spectrum3Provider, View, defaultTheme } from '@adobe/react-spectrum'
 import localFormJson from '../form-definations/form-model.json';
 import { ToastContainer, ToastQueue } from "@react-spectrum/toast";
 
@@ -36,12 +36,16 @@ const getForm = async () => {
 }
 
 const Form = (props: any) => {
+  const formStyle = {
+    width: "50%"
+  }
   const [form, setForm] = useState(undefined);
 
   const onSuccess = (action: any) => {
     let body = action.payload?.body;
     ToastQueue.positive(body.thankYouMessage.replace(/<(.|\n)*?>/g, ''));
     console.log("Thank you message", body.thankYouMessage.replace(/<(.|\n)*?>/g, ''));
+
   }
 
   const onError = (action: any) => {
@@ -74,7 +78,11 @@ const Form = (props: any) => {
     const element = document.querySelector(".cmp-formcontainer__content")
     const retVal = (
       <Spectrum3Provider theme={defaultTheme} colorScheme="light">
-        <AdaptiveForm formJson={form} mappings={customMappings} onSubmitSuccess={onSuccess} onSubmitError={onError} onSubmitFailure={onFailure} onInitialize={onInitialize} onFieldChanged={onFieldChanged} />
+        <Flex direction="column" width="100%">
+          <View justifySelf="center" alignSelf="center">
+            <AdaptiveForm style={formStyle} formJson={form} mappings={customMappings} onSubmitSuccess={onSuccess} onSubmitError={onError} onSubmitFailure={onFailure} onInitialize={onInitialize} onFieldChanged={onFieldChanged} />
+          </View>
+        </Flex>
         <ToastContainer />
       </Spectrum3Provider>
     )

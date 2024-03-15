@@ -1,21 +1,26 @@
 import Button from '@material-ui/core/Button';
 import React from 'react';
 import { withRuleEngine } from '../../utils/RuleEngineHook';
+import { Flex, View } from '@adobe/react-spectrum';
 
 const ButtonComponent = (props: any) => {
     const { label, enabled, visible, onClick } = props;
     const isVisible = typeof visible === 'undefined' || visible;
     const isEnabled = enabled === false ? false : true;
     return isVisible ? (
-        <Button
-            variant="contained"
-            color="primary"
-            size="medium"
-            onClick={onClick}
-            disabled={!isEnabled}
-        >
-            {label?.value}
-        </Button>
+        <Flex direction="column" width="100%">
+            <View justifySelf="center" alignSelf="center">
+                <Button
+                    variant="contained"
+                    color="primary"
+                    size="medium"
+                    onClick={onClick}
+                    disabled={!isEnabled}
+                >
+                    {label?.value}
+                </Button>
+            </View>
+        </Flex>
     ) : null;
 
 }
