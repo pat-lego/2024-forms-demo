@@ -6,6 +6,7 @@ import RadioGroup from "../components/radiobutton";
 import TextInput from "../components/textinput";
 import NumberInput from "../components/numberinput";
 import Form from "../components/form";
+import Image from "../components/image";
 
 const customMappings: any = {
   "form": Form,
@@ -14,6 +15,7 @@ const customMappings: any = {
   "number-input": NumberInput,
   "radio-group" : RadioGroup,
   "button": Button,
+  "image": Image,
   "panel": Panel,
   "drop-down": DropDown,
   "checkbox-group": CheckBoxGroup
