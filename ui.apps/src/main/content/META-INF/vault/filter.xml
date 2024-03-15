@@ -6,5 +6,6 @@
     <filter root="/apps/entforms/i18n"/>
     <filter root="/apps/entforms/fdeditor" />
     <filter root="/apps/fd/af/themes" mode="merge"/>
+    <filter root="/apps/core/fd/components/form/panelcontainer/v1/panelcontainer/clientlibs/editor/js/panelcontainer.js" />
 
 </workspaceFilter>

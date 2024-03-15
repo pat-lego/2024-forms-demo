@@ -37,14 +37,15 @@
                         <filter><root>/apps</root></filter>
                         <filter><root>/apps/entforms</root></filter>
                         <!-- Common overlay roots -->
-                                                <filter><root>/apps/fd</root></filter>
+                        <filter><root>/apps/fd</root></filter>
                         <filter><root>/apps/fd/af</root></filter>
-                                                <filter><root>/apps/fd/af/themes</root></filter>
-                                                                        <filter><root>/apps/sling</root></filter>
+                        <filter><root>/apps/fd/af/themes</root></filter>
+                        <filter><root>/apps/sling</root></filter>
                         <filter><root>/apps/cq</root></filter>
                         <filter><root>/apps/dam</root></filter>
                         <filter><root>/apps/wcm</root></filter>
                         <filter><root>/apps/msm</root></filter>
+                        <filter><root>/apps/core/fd/components/form/panelcontainer/v1/panelcontainer/clientlibs/editor/js</root></filter>
 
                         <!-- Immutable context-aware configurations -->
                         <filter><root>/apps/settings</root></filter>

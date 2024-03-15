@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2024-03-14T14:25:01.927-04:00"
+        cq:lastModified="{Date}2024-03-15T11:32:53.320-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/entforms/settings/wcm/templates/blank-af-v2"
         jcr:language="en"
@@ -13,7 +13,7 @@
         sling:resourceType="entforms/components/adaptiveForm/page">
         <guideContainer
             fd:version="2.1"
-            jcr:lastModified="{Date}2024-03-14T14:25:01.920-04:00"
+            jcr:lastModified="{Date}2024-03-15T09:51:20.794-04:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="entforms/components/adaptiveForm/formcontainer"
@@ -21,11 +21,12 @@
             dorType="none"
             enableRestEndpointPost="false"
             fieldType="form"
+            redirect="http://localhost:4502/content/wknd/us/en/about-us.html?wcmmode=disabled"
             restEndpointPostUrl="http://localhost:4502/content/forms/af/headless/submission.jcr.submit"
             schemaType="none"
             textIsRich="true"
             thankYouMessage="&lt;p>Thank you for submitting the form&lt;/p>&#xd;&#xa;"
-            thankYouOption="message"
+            thankYouOption="page"
             themeRef="/libs/fd/af/themes/canvas"
             title="Contact Us">
             <panelcontainer
