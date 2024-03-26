@@ -150,6 +150,16 @@ https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/cont
  
  https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/configure-service.html?lang=en
 
+ ## PDF Form Generation
+
+Leverage the following endpoint to provide an XDP to generate a PDF.
+
+ http://localhost:4502/content/fd/generate.output.pdf?xdpPath=/content/dam/formsanddocuments/we/en/we-forms.xdp
+
+ ## DoR Generation
+
+  http://localhost:4502/content/fd/generate.output.dor?xdpPath=/content/dam/formsanddocuments/we/en/we-forms.xdp
+
  ## Headless Tutorial
 
  https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/tutorial/build-engaging-forms-using-core-components-and-headless-adaptive-forms-aem-forms-cloud-service
